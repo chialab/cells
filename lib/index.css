@@ -1,0 +1,10 @@
+@import './globals.css';
+@import './typography.css';
+@import './paddings.css';
+@import './margins.css';
+@import './layout.css';
+@import './shadows.css';
+@import './colors.css';
+@import './outline.css';
+@import './scrollbar.css';
+@import './misc.css';
