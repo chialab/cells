@@ -1,0 +1,19 @@
+{
+  "name": "@chialab/cells",
+  "version": "0.1.0",
+  "description": "A strongly opinionated modular utility-first CSS library.",
+  "author": "Chialab <dev@chialab.io> (https://www.chialab.it)",
+  "style": "lib/index.css",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chialab/cells"
+  },
+  "devDependencies": {
+    "@chialab/rna": "^0.14.17",
+    "@chialab/rna-bundler": "^0.14.17",
+    "@chialab/rna-dev-server": "^0.14.17",
+    "@chialab/stylelint-config": "^1.1.4",
+    "stylelint": "^14.3.0"
+  }
+}

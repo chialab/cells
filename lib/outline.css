@@ -1,0 +1,14 @@
+:root {
+    --outline-color: var(--color-accent, #000);
+    --outline: auto 2px var(--outline-color);
+    --outline-offset: var(--base, 0.25rem);
+}
+
+* {
+    outline: 0;
+}
+
+*:focus-visible {
+    outline: var(--outline);
+    outline-offset: var(--outline-offset);
+}
