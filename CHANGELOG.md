@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/chialab/cells/compare/v1.0.2...v1.0.3) (2022-02-07)
+
+
+### Bug Fixes
+
+* use gutter for explode class ([6710e11](https://github.com/chialab/cells/commit/6710e11c04f55cf0bf87c2bdf59ee4c7a584eb08))
+
 ## [1.0.2](https://github.com/chialab/cells/compare/v1.0.1...v1.0.2) (2022-02-07)
 
 
