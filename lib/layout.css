@@ -77,6 +77,18 @@
     margin: calc(var(--gap) * -1);
 }
 
+.explode-x {
+    width: calc(100% + (var(--gap) * 2));
+    margin-right: calc(var(--gap) * -1);
+    margin-left: calc(var(--gap) * -1);
+}
+
+.explode-y {
+    height: calc(100% + (var(--gap) * 2));
+    margin-top: calc(var(--gap) * -1);
+    margin-bottom: calc(var(--gap) * -1);
+}
+
 [class^='w-'], [class*=' w-'] {
     --w-span: 0;
 
