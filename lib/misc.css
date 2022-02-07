@@ -1,9 +1,0 @@
-:root {
-    --radius: var(--base, 0.25rem);
-    --easing: ease-out;
-    --easing-time: 250ms;
-}
-
-.round {
-    border-radius: var(--radius);
-}
