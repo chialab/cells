@@ -45,3 +45,7 @@
 .radius-10 {
     border-radius: calc(var(--radius) * 10);
 }
+
+.radius-full {
+    border-radius: 50%;
+}
