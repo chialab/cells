@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/chialab/cells/compare/v1.0.1...v1.0.2) (2022-02-07)
+
+
+### Bug Fixes
+
+* body overlay ([03403c4](https://github.com/chialab/cells/commit/03403c493ad30bf7a0ee7501a3240b4d585acd63))
+
 ## [1.0.1](https://github.com/chialab/cells/compare/v1.0.0...v1.0.1) (2022-02-07)
 
 
