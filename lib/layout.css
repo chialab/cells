@@ -72,21 +72,26 @@
 }
 
 .explode {
-    width: calc(100% + (var(--gap) * 2));
-    height: calc(100% + (var(--gap) * 2));
-    margin: calc(var(--gap) * -1);
+    width: calc(100% + (var(--gutter) * 2));
+    height: calc(100% + (var(--gutter) * 2));
+    margin: calc(var(--gutter) * -1);
+    padding: var(--gutter);
 }
 
 .explode-x {
-    width: calc(100% + (var(--gap) * 2));
-    margin-right: calc(var(--gap) * -1);
-    margin-left: calc(var(--gap) * -1);
+    width: calc(100% + (var(--gutter) * 2));
+    margin-right: calc(var(--gutter) * -1);
+    margin-left: calc(var(--gutter) * -1);
+    padding-right: var(--gutter);
+    padding-left: var(--gutter);
 }
 
 .explode-y {
-    height: calc(100% + (var(--gap) * 2));
-    margin-top: calc(var(--gap) * -1);
-    margin-bottom: calc(var(--gap) * -1);
+    height: calc(100% + (var(--gutter) * 2));
+    margin-top: calc(var(--gutter) * -1);
+    margin-bottom: calc(var(--gutter) * -1);
+    padding-top: var(--gutter);
+    padding-bottom: var(--gutter);
 }
 
 [class^='w-'], [class*=' w-'] {
