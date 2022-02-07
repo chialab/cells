@@ -2,6 +2,14 @@
 
 A strongly opinionated modular utility-first CSS library.
 
+## Why
+
+**Cells** looks like just any another utility-first CSS library like bootstrap, tailwind and unocss, but it has a slightly different scope. The library is designed to work as a configurable primer for themable components library and frontend skeletons.
+
+Since it does not try to cover the entire styling experience of a project, it does not require build-time optimizations. You can import base custom properties and classes using plain CSS imports and load opinionated rules from the provided presets.
+
+Please note that **Cells** does not aim to compete in the CSS frameworks market. It will evolve in the only interest of our development teams, but we are happy to share and discuss design choices with other developers.
+
 ## Installation
 
 You can install and consume **Cells** with [`npm`](https://www.npmjs.com/):
