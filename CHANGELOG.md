@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/chialab/cells/compare/v1.0.0...v1.0.1) (2022-02-07)
+
+
+### Bug Fixes
+
+* overlay scrollbar for tight vw calculation ([8c22590](https://github.com/chialab/cells/commit/8c225901c78ce9a1c4beaedd6153214dc049a517))
+
 # 1.0.0 (2022-02-07)
 
 
