@@ -24,6 +24,10 @@ Implemented modules:
 * **Outline** customizes the global page outline for keyboard navigation
 * **Scollbar** contains classes to customize scrollbars
 
+Presets:
+
+* **Website** configures the grid layout for each viewport (mobile 4 columns, tablet portrait 6 columns, tablet landscape 8 columns, desktop 12 columns)
+
 ## Usage
 
 [![NPM](https://img.shields.io/npm/v/@chialab/cells.svg)](https://www.npmjs.com/package/@chialab/cells)

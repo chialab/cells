@@ -1,0 +1,17 @@
+@media (max-width: 639px) {
+    :root {
+        --viewport: 100vw;
+        --columns: 4;
+    }
+
+    .w-5,
+    .w-6,
+    .w-7,
+    .w-8,
+    .w-9,
+    .w-10,
+    .w-11,
+    .w-12 {
+        --w-span: 4;
+    }
+}
