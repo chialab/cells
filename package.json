@@ -9,6 +9,9 @@
     "type": "git",
     "url": "https://github.com/chialab/cells"
   },
+  "files": [
+    "lib"
+  ],
   "devDependencies": {
     "@chialab/rna": "^0.14.17",
     "@chialab/rna-bundler": "^0.14.17",
