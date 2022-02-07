@@ -15,6 +15,7 @@
     --shadow-7: 0 7px 14px 0 var(--shadow-color);
     --shadow-8: 0 8px 16px 0 var(--shadow-color);
     --shadow-9: 0 9px 18px 0 var(--shadow-color);
+    --shadow-10: 0 10px 20px 0 var(--shadow-color);
     --shadow-12: 0 12px 24px 0 var(--shadow-color);
     --shadow-16: 0 16px 32px 0 var(--shadow-color);
     --shadow-24: 0 24px 48px 0 var(--shadow-color);
@@ -74,6 +75,10 @@
 
 .elevation-9 {
     box-shadow: var(--shadow-9);
+}
+
+.elevation-10 {
+    box-shadow: var(--shadow-10);
 }
 
 .elevation-12 {
