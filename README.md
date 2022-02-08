@@ -14,6 +14,7 @@ Since it does not try to cover the entire styling experience of a project, it do
 
 Implemented modules:
 
+* **Spacing** defines base spacing variables
 * **Colors** defines base theming variables such as `primary`, `secondary` and `accent` colors and base text and background colors classes
 * **Typography** defines base variables for families, weights and size scale, as well as declinated classes for composition
 * **Layout** contains classes for general grid layout, as well as utility classes for flexbox specs

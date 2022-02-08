@@ -1,0 +1,8 @@
+/**
+ * @tokens Spacing
+ * @presenter Spacing
+ */
+:root {
+    --base: 0.25rem;
+    --spacing: calc(var(--base, 0.25rem) * 4);
+}
