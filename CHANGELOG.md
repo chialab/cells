@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/chialab/cells/compare/v1.0.3...v1.1.0) (2022-02-08)
+
+
+### Features
+
+* spacing module ([6d16486](https://github.com/chialab/cells/commit/6d1648686e97a7c352b327ced24790d67fc7b5b8))
+
 ## [1.0.3](https://github.com/chialab/cells/compare/v1.0.2...v1.0.3) (2022-02-07)
 
 
