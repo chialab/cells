@@ -1,6 +1,19 @@
 :root {
+    /**
+     * @tokens Shadows
+     * @presenter Color
+     */
     --shadow-color: rgba(66, 69, 72, 0.4);
+
+    /**
+     * @tokens Shadows
+     */
     --shadow-filter: 0 0 2px var(--shadow-color);
+
+    /**
+     * @tokens Shadows
+     * @presenter Shadow
+     */
     --shadow-inner-1: inset 0 1px 2px 0 var(--shadow-color);
     --shadow-inner-2: inset 0 2px 4px 0 var(--shadow-color);
     --shadow-inner-3: inset 0 3px 6px 0 var(--shadow-color);

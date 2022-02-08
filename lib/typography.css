@@ -1,8 +1,15 @@
 :root {
+    /**
+     * @tokens Font families
+     * @presenter FontFamily
+     */
     --font-sans: sans-serif;
     --font-serif: serif;
     --font-mono: monospace;
 
+    /**
+     * @tokens Typographic scale
+     */
     --font-scale-xsmall: 0.75;
     --font-scale-small: 0.875;
     --font-scale-1: 1;
@@ -15,6 +22,10 @@
     --font-scale-8: 3;
     --font-scale-9: 4;
 
+    /**
+     * @tokens Typographic scale
+     * @presenter FontSize
+     */
     --font-size-xsmall: calc(var(--font-scale-xsmall) * 1rem);
     --font-size-small: calc(var(--font-scale-small) * 1rem);
     --font-size-1: calc(var(--font-scale-1) * 1rem);
@@ -27,6 +38,10 @@
     --font-size-8: calc(var(--font-scale-8) * 1rem);
     --font-size-9: calc(var(--font-scale-9) * 1rem);
 
+    /**
+     * @tokens Font styles
+     * @presenter FontWeight
+     */
     --weight-light: 300;
     --weight-normal: 400;
     --weight-bold: 700;
