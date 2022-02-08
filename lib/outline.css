@@ -1,5 +1,13 @@
 :root {
+    /**
+     * @tokens Outline
+     * @presenter Color
+     */
     --outline-color: var(--color-accent, #000);
+
+    /**
+     * @tokens Outline
+     */
     --outline: auto 2px var(--outline-color);
     --outline-offset: var(--base, 0.25rem);
 }

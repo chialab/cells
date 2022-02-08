@@ -1,6 +1,20 @@
 :root {
+    /**
+     * @tokens Scrollbars
+     * @presenter Spacing
+     */
     --scrollbar-width: 10px;
+
+    /**
+     * @tokens Scrollbars
+     * @presenter BorderRadius
+     */
     --scrollbar-radius: 15px;
+
+    /**
+     * @tokens Scrollbars
+     * @presenter Color
+     */
     --scrollbar-thumb-color: rgba(0, 0, 0, 0.5);
 }
 

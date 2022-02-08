@@ -1,3 +1,7 @@
+/**
+ * @tokens Spacing
+ * @presenter Spacing
+ */
 :root {
     --padding: calc(var(--base, 0.25rem) * 2);
 }
