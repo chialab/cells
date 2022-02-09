@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/chialab/cells/compare/v1.1.0...v1.1.1) (2022-02-09)
+
+
+### Bug Fixes
+
+* base outline color ([8c0f2c1](https://github.com/chialab/cells/commit/8c0f2c1bdb64a7a699289c1d371a4db03325da4d))
+
 # [1.1.0](https://github.com/chialab/cells/compare/v1.0.3...v1.1.0) (2022-02-08)
 
 
