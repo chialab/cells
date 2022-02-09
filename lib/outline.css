@@ -3,7 +3,7 @@
      * @tokens Outline
      * @presenter Color
      */
-    --outline-color: var(--color-accent, #000);
+    --outline-color: #0077ff;
 
     /**
      * @tokens Outline
