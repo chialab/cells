@@ -60,4 +60,4 @@ or using the unpkg CDN:
 
 ## License
 
-RNA is released under the [MIT](https://github.com/chialab/rna/blob/main/LICENSE) license.
+Cells is released under the [MIT](https://github.com/chialab/cells/blob/main/LICENSE) license.
