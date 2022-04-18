@@ -1,3 +1,18 @@
+# [1.3.0](https://github.com/chialab/cells/compare/v1.2.0...v1.3.0) (2022-04-18)
+
+
+### Bug Fixes
+
+* change default secondary color ([9cb1671](https://github.com/chialab/cells/commit/9cb1671c4175ec70d4b05040b5fd76728abe09b0))
+* no wrap layout rule ([05a51cd](https://github.com/chialab/cells/commit/05a51cd46d2046e2c1c9ac9b82abfd8e53fbb457))
+* paddings and margins win over layout ([ec0af01](https://github.com/chialab/cells/commit/ec0af0177dfe500aeff56f72bd3f061d7610208e))
+
+
+### Features
+
+* clamping module ([b5210b0](https://github.com/chialab/cells/commit/b5210b0cc02278fd3c7aae42bb9850c0be737208))
+* justify layout class ([bca0deb](https://github.com/chialab/cells/commit/bca0deb3de9c861ebb4bb272e04c359996dc4c36))
+
 # [1.2.0](https://github.com/chialab/cells/compare/v1.1.1...v1.2.0) (2022-03-01)
 
 ## [1.1.1](https://github.com/chialab/cells/compare/v1.1.0...v1.1.1) (2022-02-09)
