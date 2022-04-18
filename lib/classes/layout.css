@@ -203,7 +203,6 @@
 
 .no-wrap {
     flex-wrap: nowrap;
-    white-space: nowrap;
 }
 
 .align-justify {
@@ -224,6 +223,10 @@
 
 .stretch {
     justify-content: stretch;
+}
+
+.justify {
+    justify-content: space-between;
 }
 
 .start {

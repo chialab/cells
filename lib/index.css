@@ -3,10 +3,11 @@
 @import './animations.css';
 @import './outline.css';
 @import './classes/typography.css';
+@import './classes/layout.css';
 @import './classes/paddings.css';
 @import './classes/margins.css';
-@import './classes/layout.css';
 @import './classes/shadows.css';
 @import './classes/colors.css';
 @import './classes/borders.css';
+@import './classes/clamping.css';
 @import './classes/scrollbar.css';
