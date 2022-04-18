@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="./lib/presets/website.css">
         <title>Cells - Chialab</title>
     </head>
-    <body class="sans py-2">
+    <body class="sans pt-2 pb-6 bg-surface">
         <div class="viewport column mx-auto">
             <div class="my-4">
                 <h1 class="m-0 heading-1">Cells</h1>
@@ -125,6 +125,12 @@
                     <div class="bg-surface w-1 h-2 radius-1 elevation-2 column align-center center"></div>
                     <div class="bg-surface w-1 h-1 radius-1 elevation-2 column align-center center"></div>
                 </div>
+                <div class="row bg-neutral p-2 pt-6 radius-1 full justify" data-class="row justify">
+                    <div class="bg-surface w-1 h-1 radius-1 elevation-2 column align-center center"></div>
+                    <div class="bg-surface w-1 h-2 radius-1 elevation-2 column align-center center"></div>
+                    <div class="bg-surface w-1 h-2 radius-1 elevation-2 column align-center center"></div>
+                    <div class="bg-surface w-1 h-1 radius-1 elevation-2 column align-center center"></div>
+                </div>
                 <div class="row bg-neutral p-2 pt-6 radius-1 full align-center" data-class="row align-center">
                     <div class="bg-surface w-2 h-1 radius-1 elevation-2 column align-center center"></div>
                     <div class="bg-surface w-1 h-2 radius-1 elevation-2 column align-center center"></div>
@@ -170,7 +176,7 @@
             </div>
             <h5 class="m-0 heading-5">Grid</h5>
             <div class="column mt-2 mb-4 full align-justify">
-                <div class="grid p-2 pt-6 explode bg-neutral" data-class="grid">
+                <div class="grid p-2 explode pt-6 bg-neutral" data-class="grid">
                     <div class="bg-surface w-1 h-1 radius-1 elevation-2 column align-center center"></div>
                     <div class="bg-surface w-2 h-1 radius-1 elevation-2 column align-center center"></div>
                     <div class="bg-surface w-1 h-1 radius-1 elevation-2 column align-center center"></div>
@@ -671,7 +677,7 @@
                 </div>
             </div>
             <h3 class="m-0 heading-3">Borders</h3>
-            <div class="grid full">
+            <div class="grid full mb-2">
                 <div class="w-2 h-2 elevation-2 radius-0 bg-surface column align-center center" tabindex="0">
                     <span class="mono no-wrap">radius-0</span>
                 </div>
@@ -768,6 +774,34 @@
                     <span class="mono no-wrap">elevation-24</span>
                 </div>
             </div>
+            <h3 class="m-0 heading-3">Clamping</h3>
+            <div class="grid full mb-2">
+                <div class="w-3 h-2 radius-1 bg-surface elevation-2 p-2 pt-6 column" tabindex="0" data-class="clamp-1">
+                    <div class="clamp-1">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit quos ut inventore tempora veniam, ducimus asperiores quam, nesciunt fugit consequatur itaque placeat ad? Culpa vitae saepe consequuntur commodi in suscipit.
+                    </div>
+                </div>
+                <div class="w-3 h-2 radius-1 bg-surface elevation-2 p-2 pt-6 column" tabindex="0" data-class="clamp-2">
+                    <div class="clamp-2">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit quos ut inventore tempora veniam, ducimus asperiores quam, nesciunt fugit consequatur itaque placeat ad? Culpa vitae saepe consequuntur commodi in suscipit.
+                    </div>
+                </div>
+                <div class="w-3 h-2 radius-1 bg-surface elevation-2 p-2 pt-6 column" tabindex="0" data-class="clamp-3">
+                    <div class="clamp-3">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit quos ut inventore tempora veniam, ducimus asperiores quam, nesciunt fugit consequatur itaque placeat ad? Culpa vitae saepe consequuntur commodi in suscipit.
+                    </div>
+                </div>
+                <div class="w-3 h-2 radius-1 bg-surface elevation-2 p-2 pt-6 column" tabindex="0" data-class="clamp-4">
+                    <div class="clamp-4">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit quos ut inventore tempora veniam, ducimus asperiores quam, nesciunt fugit consequatur itaque placeat ad? Culpa vitae saepe consequuntur commodi in suscipit.
+                    </div>
+                </div>
+                <div class="w-3 h-2 radius-1 bg-surface elevation-2 p-2 pt-6 column" tabindex="0" data-class="clamp-5">
+                    <div class="clamp-5">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit quos ut inventore tempora veniam, ducimus asperiores quam, nesciunt fugit consequatur itaque placeat ad? Culpa vitae saepe consequuntur commodi in suscipit.
+                    </div>
+                </div>
+            </div>
         </div>
         <style>
             [data-class] {
@@ -790,6 +824,10 @@
                 top: 0;
                 right: calc(100% + 1rem);
                 left: auto;
+            }
+
+            .mono.no-wrap {
+                white-space: nowrap;
             }
         </style>
     </body>

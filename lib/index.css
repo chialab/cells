@@ -9,4 +9,5 @@
 @import './classes/shadows.css';
 @import './classes/colors.css';
 @import './classes/borders.css';
+@import './classes/clamping.css';
 @import './classes/scrollbar.css';
