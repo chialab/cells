@@ -10,7 +10,8 @@
     "url": "https://github.com/chialab/cells"
   },
   "files": [
-    "lib"
+    "lib",
+    "docs"
   ],
   "devDependencies": {
     "@chialab/rna": "^0.14.17",
