@@ -1,0 +1,110 @@
+cells-design-token {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+}
+
+cells-design-token .design-token__wrapper {
+    position: relative;
+    display: flex;
+    flex: 1 auto;
+    flex-direction: column;
+    gap: 1em;
+}
+
+cells-design-token .design-token__wrapper .design-token__wrapper {
+    padding: 0;
+}
+
+cells-design-token .design-token__name {
+    display: flex;
+    flex-direction: column;
+}
+
+cells-design-token .design-token__wrapper p {
+    margin: 0;
+    opacity: 0.5;
+}
+
+cells-design-token .design-token__spacing {
+    margin: 0.5em 0;
+    background: #ff7575;
+}
+
+cells-design-token .design-token__layout {
+    width: calc(100% + 2em);
+    margin: 0 -0.5em -0.5em -1em;
+    background: #e5e5e5;
+    border-radius: inherit;
+}
+
+cells-design-token[type='background'] > .design-token__wrapper > .design-token__name {
+    order: 1;
+    margin: auto -0.5em 0 -0.5em;
+    padding: 0.5em;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: inherit;
+}
+
+cells-design-token[type='family'] .design-token__wrapper,
+cells-design-token[type='size'] .design-token__wrapper,
+cells-design-token[type='weight'] .design-token__wrapper {
+    gap: 0;
+}
+
+cells-design-token[type='family'] .design-token__name,
+cells-design-token[type='size'] .design-token__name,
+cells-design-token[type='weight'] .design-token__name {
+    flex-direction: row;
+    gap: 2em;
+    width: 100%;
+}
+
+cells-design-token .design-token__value {
+    display: inline-flex;
+    align-items: center;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+cells-design-token .design-token__value-field {
+    position: relative;
+    overflow: auto;
+    font-family: monospace;
+    white-space: nowrap;
+}
+
+cells-design-token .design-token__value-field::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+cells-design-token .design-token__value > button {
+    flex: none;
+    margin: 0;
+    padding: 0.5em;
+    color: inherit;
+    font-size: 1em;
+    line-height: 1;
+    background: transparent;
+    border: 0;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background 250ms ease-out;
+    appearance: none;
+}
+
+cells-design-token .design-token__value > button:hover {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+cells-design-token .design-token__value > button:active {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+cells-design-token .design-token__value > button svg {
+    display: block;
+    width: 1em;
+    height: 1em;
+    fill: currentcolor;
+}
