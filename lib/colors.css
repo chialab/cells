@@ -4,6 +4,7 @@
  */
 :root {
     --color-surface: #ffffff;
+    --color-text: #000000;
     --color-primary: #000000;
     --color-primary--text: #ffffff;
     --color-secondary: #333333;

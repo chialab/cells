@@ -58,9 +58,9 @@
 }
 
 .bg-surface {
-    color: var(--color-primary);
+    color: var(--color-text);
     background-color: var(--color-surface);
-    fill: var(--color-primary);
+    fill: var(--color-text);
 }
 
 .bg-disabled {
