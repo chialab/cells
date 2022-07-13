@@ -13,16 +13,15 @@
     "lib",
     "docs"
   ],
-  "devDependencies": {
-    "@chialab/rna": "^0.14.17",
-    "@chialab/rna-bundler": "^0.14.17",
-    "@chialab/rna-dev-server": "^0.14.17",
-    "@chialab/semantic-release-config": "^1.1.0",
-    "@chialab/stylelint-config": "^1.1.4",
-    "semantic-release": "^19.0.2",
-    "stylelint": "^14.3.0"
-  },
   "scripts": {
-    "semantic-release": "semantic-release"
+    "lint": "stylelint lib"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.23.1",
+    "@chialab/rna": "^0.15.0",
+    "@chialab/rna-bundler": "^0.15.0",
+    "@chialab/rna-dev-server": "^0.15.0",
+    "@chialab/stylelint-config": "^2.0.0",
+    "stylelint": "^14.3.0"
   }
 }
