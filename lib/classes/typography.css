@@ -24,6 +24,14 @@
     font-weight: var(--weight-bold);
 }
 
+.italic {
+    font-style: italic;
+}
+
+.oblique {
+    font-style: oblique;
+}
+
 .f-xs {
     font-size: var(--font-size-xsmall);
 }
