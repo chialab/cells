@@ -63,6 +63,10 @@
     gap: calc(var(--gap) * 5);
 }
 
+.gap-row-0 {
+    row-gap: 0;
+}
+
 .gap-row-xs {
     row-gap: calc(var(--gap) * 0.25);
 }
@@ -89,6 +93,10 @@
 
 .gap-row-5 {
     row-gap: calc(var(--gap) * 5);
+}
+
+.gap-column-0 {
+    column-gap: 0;
 }
 
 .gap-column-xs {
