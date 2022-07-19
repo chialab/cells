@@ -299,6 +299,10 @@
     align-items: flex-end;
 }
 
+.align-baseline {
+    align-items: baseline;
+}
+
 .stretch {
     justify-content: stretch;
 }

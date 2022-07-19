@@ -123,10 +123,10 @@ export class DesignToken extends Component {
         return html`<div class="design-token__wrapper px-2 py-1 radius-1 elevation-2">
             ${this.renderTokens()}
             <div class=${`design-token__layout full p-2 ${this.rule}`}>
-                <div class="bg-surface w-1 h-1 radius-1 elevation-2 column align-center center"></div>
-                <div class="bg-surface w-1 h-2 radius-1 elevation-2 column align-center center"></div>
-                <div class="bg-surface w-1 h-1 radius-1 elevation-2 column align-center center"></div>
-                <div class="bg-surface w-1 h-2 radius-1 elevation-2 column align-center center"></div>
+                <div class="bg-surface w-1 h-1 radius-1 elevation-2 column p-1">Lorem ipsum dolor</div>
+                <div class="bg-surface w-1 h-2 radius-1 elevation-2 column p-1">Lorem ipsum dolor</div>
+                <div class="bg-surface w-1 h-1 radius-1 elevation-2 column p-1">Lorem ipsum dolor</div>
+                <div class="bg-surface w-1 h-2 radius-1 elevation-2 column p-1">Lorem ipsum dolor</div>
             </div>
         </div>`;
     }
@@ -135,10 +135,10 @@ export class DesignToken extends Component {
         return html`<div class="design-token__wrapper px-2 py-1 radius-1 elevation-2">
             ${this.renderTokens()}
             <div class=${`design-token__layout full p-2 ${this.rule}`}>
-                <div class="bg-surface w-1 h-1 radius-1 elevation-2 column align-center center"></div>
-                <div class="bg-surface w-2 h-1 radius-1 elevation-2 column align-center center"></div>
-                <div class="bg-surface w-1 h-1 radius-1 elevation-2 column align-center center"></div>
-                <div class="bg-surface w-2 h-1 radius-1 elevation-2 column align-center center"></div>
+                <div class="bg-surface w-1 h-1 radius-1 elevation-2 column align-center center p-1"></div>
+                <div class="bg-surface w-2 h-1 radius-1 elevation-2 column align-center center p-1"></div>
+                <div class="bg-surface w-1 h-1 radius-1 elevation-2 column align-center center p-1"></div>
+                <div class="bg-surface w-2 h-1 radius-1 elevation-2 column align-center center p-1"></div>
             </div>
         </div>`;
     }

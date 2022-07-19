@@ -45,6 +45,11 @@
     fill: var(--color-info);
 }
 
+.text-overlay {
+    color: var(--color-overlay);
+    fill: var(--color-overlay);
+}
+
 .bg-primary {
     color: var(--color-primary--text);
     background-color: var(--color-primary);
@@ -103,4 +108,10 @@
     color: var(--color-info--text);
     background-color: var(--color-info);
     fill: var(--color-info--text);
+}
+
+.bg-overlay {
+    color: var(--color-overlay--text);
+    background-color: var(--color-overlay);
+    fill: var(--color-overlay--text);
 }
