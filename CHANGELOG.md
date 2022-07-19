@@ -1,5 +1,12 @@
 # [1.4.0](https://github.com/chialab/cells/compare/v1.3.0...v1.4.0) (2022-04-19)
 
+## 1.4.3
+
+### Patch Changes
+
+- b18d6fb: Added text and bg classes for overlay
+- 5274475: Add align-baseline utility class
+
 ## 1.4.2
 
 ### Patch Changes
