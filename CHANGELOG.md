@@ -1,5 +1,11 @@
 # [1.4.0](https://github.com/chialab/cells/compare/v1.3.0...v1.4.0) (2022-04-19)
 
+## 1.4.4
+
+### Patch Changes
+
+- f4e8ed6: use variable for line clamping
+
 ## 1.4.3
 
 ### Patch Changes
