@@ -1,3 +1,14 @@
+[class^='clamp-'],
+[class*=' clamp-'] {
+    --line-clamp: 1;
+
+    display: -webkit-box;
+    line-clamp: var(--line-clamp);
+    overflow: hidden;
+    -webkit-line-clamp: var(--line-clamp);
+    -webkit-box-orient: vertical;
+}
+
 .clamp-1 {
     max-width: 100%;
     overflow: hidden;
@@ -6,33 +17,17 @@
 }
 
 .clamp-2 {
-    display: -webkit-box;
-    line-clamp: 2;
-    overflow: hidden;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
+    --line-clamp: 2;
 }
 
 .clamp-3 {
-    display: -webkit-box;
-    line-clamp: 3;
-    overflow: hidden;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
+    --line-clamp: 3;
 }
 
 .clamp-4 {
-    display: -webkit-box;
-    line-clamp: 4;
-    overflow: hidden;
-    -webkit-line-clamp: 4;
-    -webkit-box-orient: vertical;
+    --line-clamp: 4;
 }
 
 .clamp-5 {
-    display: -webkit-box;
-    line-clamp: 5;
-    overflow: hidden;
-    -webkit-line-clamp: 5;
-    -webkit-box-orient: vertical;
+    --line-clamp: 5;
 }
