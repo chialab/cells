@@ -11,6 +11,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
+    align-content: flex-start;
     align-items: flex-start;
     gap: var(--gap);
 }
@@ -20,6 +21,7 @@
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: flex-start;
+    align-content: flex-start;
     align-items: flex-start;
     gap: var(--gap);
 }
@@ -288,19 +290,28 @@
 }
 
 .align-start {
+    align-content: start;
     align-items: start;
 }
 
 .align-center {
+    align-content: center;
     align-items: center;
 }
 
 .align-end {
+    align-content: end;
     align-items: flex-end;
 }
 
 .align-baseline {
+    align-content: baseline;
     align-items: baseline;
+}
+
+.align-stretch {
+    align-content: stretch;
+    align-items: stretch;
 }
 
 .stretch {
