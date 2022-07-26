@@ -1,5 +1,11 @@
 # [1.4.0](https://github.com/chialab/cells/compare/v1.3.0...v1.4.0) (2022-04-19)
 
+## 1.4.6
+
+### Patch Changes
+
+- Fix alignment values
+
 ## 1.4.5
 
 ### Patch Changes
