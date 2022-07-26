@@ -290,8 +290,8 @@
 }
 
 .align-start {
-    align-content: start;
-    align-items: start;
+    align-content: flex-start;
+    align-items: flex-start;
 }
 
 .align-center {
@@ -300,7 +300,7 @@
 }
 
 .align-end {
-    align-content: end;
+    align-content: flex-end;
     align-items: flex-end;
 }
 
@@ -323,7 +323,7 @@
 }
 
 .start {
-    justify-content: start;
+    justify-content: flex-start;
 }
 
 .center {
