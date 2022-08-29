@@ -1,6 +1,6 @@
 @media (max-width: 639px) {
     :root {
-        --viewport: 100vw;
+        --viewport: var(--window-width, 100vw);
         --columns: 4;
     }
 
