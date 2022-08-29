@@ -1,5 +1,17 @@
 # [1.4.0](https://github.com/chialab/cells/compare/v1.3.0...v1.4.0) (2022-04-19)
 
+## 1.5.0
+
+### Minor Changes
+
+- 8c54b78: Introducing the `--window-width` for responsive layouts. This variable has not values until it is set via JavaScript.
+
+### Patch Changes
+
+- 455c9e8: Add `cover` and `contain` classes
+- 705b75d: Rename `fill` class to `flex`
+- 0a72510: Add `block` class
+
 ## 1.4.6
 
 ### Patch Changes
