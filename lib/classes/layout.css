@@ -6,6 +6,10 @@
     padding: 0 var(--gutter);
 }
 
+.block {
+    display: block;
+}
+
 .row {
     display: flex;
     flex-direction: row;
