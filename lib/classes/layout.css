@@ -129,6 +129,7 @@
     column-gap: calc(var(--gap) * 5);
 }
 
+.flex,
 .fill {
     flex: auto;
 }

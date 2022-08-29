@@ -103,7 +103,7 @@ export class DesignToken extends Component {
 
     renderMargin() {
         return html`<div class="design-token__wrapper bg-neutral radius-1 elevation-2">
-            <div class=${`bg-surface p-2 radius-1 fill ${!this.name ? this.rule : ''}`} style=${{ margin: `var(${this.name})` }}>
+            <div class=${`bg-surface p-2 radius-1 flex ${!this.name ? this.rule : ''}`} style=${{ margin: `var(${this.name})` }}>
                 ${this.renderTokens()}
             </div>
             <slot />
@@ -112,7 +112,7 @@ export class DesignToken extends Component {
 
     renderPadding() {
         return html`<div class=${`design-token__wrapper bg-neutral radius-1 elevation-2 ${!this.name ? this.rule : ''}`} style=${{ padding: `var(${this.name})` }}>
-            <div class="bg-surface radius-1 fill column center align-center">
+            <div class="bg-surface radius-1 flex column center align-center">
                 ${this.renderTokens()}
             </div>
             <slot />
