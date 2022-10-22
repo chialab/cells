@@ -8,7 +8,8 @@
     /**
      * @tokens Outline
      */
-    --outline: auto 2px var(--outline-color);
+    --outline-width: 2px;
+    --outline: auto var(--outline-width) var(--outline-color);
     --outline-offset: var(--base, 0.25rem);
 }
 
