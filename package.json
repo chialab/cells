@@ -4,6 +4,11 @@
   "description": "A strongly opinionated modular utility-first CSS library.",
   "author": "Chialab <dev@chialab.io> (https://www.chialab.it)",
   "style": "lib/index.css",
+  "exports": {
+    ".": "./lib/index.css",
+    "./lib/*": "./lib/*",
+    "./docs/*": "./docs/*"
+  },
   "license": "MIT",
   "repository": {
     "type": "git",
