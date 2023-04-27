@@ -1,33 +1,35 @@
-[class^='clamp-'],
-[class*=' clamp-'] {
-    --line-clamp: 1;
+@layer utilities {
+    [class^='clamp-'],
+    [class*=' clamp-'] {
+        --line-clamp: 1;
 
-    display: -webkit-box;
-    line-clamp: var(--line-clamp);
-    overflow: hidden;
-    -webkit-line-clamp: var(--line-clamp);
-    -webkit-box-orient: vertical;
-}
+        display: -webkit-box;
+        line-clamp: var(--line-clamp);
+        overflow: hidden;
+        -webkit-line-clamp: var(--line-clamp);
+        -webkit-box-orient: vertical;
+    }
 
-.clamp-1 {
-    max-width: 100%;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-}
+    .clamp-1 {
+        max-width: 100%;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
 
-.clamp-2 {
-    --line-clamp: 2;
-}
+    .clamp-2 {
+        --line-clamp: 2;
+    }
 
-.clamp-3 {
-    --line-clamp: 3;
-}
+    .clamp-3 {
+        --line-clamp: 3;
+    }
 
-.clamp-4 {
-    --line-clamp: 4;
-}
+    .clamp-4 {
+        --line-clamp: 4;
+    }
 
-.clamp-5 {
-    --line-clamp: 5;
+    .clamp-5 {
+        --line-clamp: 5;
+    }
 }

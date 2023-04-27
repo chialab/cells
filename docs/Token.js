@@ -10,6 +10,7 @@ export const DesignTokenType = {
     Text: 'text',
     Family: 'family',
     Size: 'size',
+    LineHeight: 'lineheight',
     Weight: 'weight',
     Color: 'color',
     Background: 'background',
@@ -56,6 +57,8 @@ export class DesignToken extends Component {
                 return this.renderFamily();
             case DesignTokenType.Size:
                 return this.renderSize();
+            case DesignTokenType.LineHeight:
+                return this.renderLineHeight();
             case DesignTokenType.Weight:
                 return this.renderWeight();
             case DesignTokenType.Color:
@@ -188,6 +191,15 @@ export class DesignToken extends Component {
         return html`<div class="design-token__wrapper">
             <p class=${`design-token__paragrapgh ${!this.name ? this.rule : ''}`} style=${{ fontSize: `var(${this.name})` }}>
                 ${this.slotChildNodes.length ? html`<slot />` : 'Lorem ipsum dolor, sit amet consectetur adipisicing elit.'}
+            </p>
+            ${this.renderTokens()}
+        </div>`;
+    }
+
+    renderLineHeight() {
+        return html`<div class="design-token__wrapper">
+            <p class=${`design-token__paragrapgh ${!this.name ? this.rule : ''}`} style=${{ lineHeight: `var(${this.name})` }}>
+                ${this.slotChildNodes.length ? html`<slot />` : 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis blanditiis, obcaecati ex earum sunt mollitia voluptatem dignissimos! Culpa vitae, quas cum asperiores aspernatur dolor deserunt unde hic nostrum quod molestiae.'}
             </p>
             ${this.renderTokens()}
         </div>`;

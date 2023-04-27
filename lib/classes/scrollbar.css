@@ -1,20 +1,22 @@
 @import '../scrollbar.css';
 
-.scrollbar::-webkit-scrollbar {
-    width: var(--scrollbar-width);
-    height: var(--scrollbar-width);
-}
+@layer utilities {
+    .scrollbar::-webkit-scrollbar {
+        width: var(--scrollbar-width);
+        height: var(--scrollbar-width);
+    }
 
-.scrollbar::-webkit-scrollbar-thumb {
-    background: var(--scrollbar-thumb-color);
-    border-radius: var(--scrollbar-radius);
-}
+    .scrollbar::-webkit-scrollbar-thumb {
+        background: var(--scrollbar-thumb-color);
+        border-radius: var(--scrollbar-radius);
+    }
 
-.scrollbar::-webkit-scrollbar-thumb:hover {
-    background: var(--scrollbar-thumb-color);
-}
+    .scrollbar::-webkit-scrollbar-thumb:hover {
+        background: var(--scrollbar-thumb-color);
+    }
 
-.scrollbar::-webkit-scrollbar-track {
-    background: transparent;
-    border-radius: var(--scrollbar-radius);
+    .scrollbar::-webkit-scrollbar-track {
+        background: transparent;
+        border-radius: var(--scrollbar-radius);
+    }
 }

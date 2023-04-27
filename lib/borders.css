@@ -1,7 +1,9 @@
-/**
- * @tokens Borders
- * @presenter BorderRadius
- */
-:root {
-    --radius: var(--base, 0.25rem);
+@layer utilities {
+    /**
+     * @tokens Borders
+     * @presenter BorderRadius
+     */
+    :root {
+        --radius: var(--base, 0.25rem);
+    }
 }
