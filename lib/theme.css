@@ -1,0 +1,31 @@
+@layer theme {
+    /**
+     * @tokens Theme
+     * @presenter Color
+     */
+    :root {
+        --color-surface: #ffffff;
+        --color-text: #000000;
+        --color-primary: #000000;
+        --color-primary--text: #ffffff;
+        --color-secondary: #333333;
+        --color-secondary--text: #ffffff;
+        --color-accent: #ef7d05;
+        --color-accent--text: #ffffff;
+        --color-disabled: #999999;
+        --color-disabled--text: #000000;
+        --color-success: #6baf1d;
+        --color-success--text: #ffffff;
+        --color-fail: #d0021b;
+        --color-fail--text: #ffffff;
+        --color-warning: #ffbb00;
+        --color-warning--text: #000000;
+        --color-info: #0077ff;
+        --color-info--text: #ffffff;
+        --color-neutral: #e5e5e5;
+        --color-neutral--text: #000000;
+        --color-overlay: rgba(0, 0, 0, 0.8);
+        --color-overlay--text: #ffffff;
+        --color-overlay-gradient: linear-gradient(to bottom, hsla(0, 0%, 0%, 0) 0%, hsla(0, 0%, 0%, 0.01) 8.4%, hsla(0, 0%, 0%, 0.039) 16.1%, hsla(0, 0%, 0%, 0.083) 23.3%, hsla(0, 0%, 0%, 0.14) 29.9%, hsla(0, 0%, 0%, 0.207) 36.1%, hsla(0, 0%, 0%, 0.282) 42.1%, hsla(0, 0%, 0%, 0.36) 47.9%, hsla(0, 0%, 0%, 0.44) 53.6%, hsla(0, 0%, 0%, 0.518) 59.3%, hsla(0, 0%, 0%, 0.593) 65.2%, hsla(0, 0%, 0%, 0.66) 71.3%, hsla(0, 0%, 0%, 0.717) 77.7%, hsla(0, 0%, 0%, 0.761) 84.6%, hsla(0, 0%, 0%, 0.79) 92%, hsla(0, 0%, 0%, 0.8) 100%);
+    }
+}

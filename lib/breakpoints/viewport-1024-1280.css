@@ -1,5 +1,7 @@
 @media (min-width: 1024px) and (max-width: 1280px) {
-    :root {
-        --viewport: var(--window-width, 100vw);
+    @layer layout {
+        :root {
+            --viewport: var(--window-width, 100vw);
+        }
     }
 }

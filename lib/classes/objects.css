@@ -1,9 +1,11 @@
-.cover {
-    object-fit: cover;
-    object-position: center;
-}
+@layer utilities {
+    .cover {
+        object-fit: cover;
+        object-position: center;
+    }
 
-.contain {
-    object-fit: contain;
-    object-position: center;
+    .contain {
+        object-fit: contain;
+        object-position: center;
+    }
 }

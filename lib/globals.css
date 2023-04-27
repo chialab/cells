@@ -1,14 +1,21 @@
-html, body {
-    margin: 0;
-    padding: 0;
-}
+@layer globals {
+    html, body {
+        margin: 0;
+        padding: 0;
+    }
 
-body {
-    overflow: overlay;
-}
+    *,
+    *::before,
+    *::after {
+        box-sizing: border-box;
+    }
 
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
+    * {
+        outline: 0;
+    }
+
+    *:focus-visible {
+        outline: var(--outline, auto 2px #0077ff);
+        outline-offset: var(--outline-offset, 0);
+    }
 }
