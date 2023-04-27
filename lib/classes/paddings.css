@@ -1,4 +1,4 @@
-@import '../paddings.css';
+@import '../tokens/paddings.css';
 
 @layer layout {
     .p-0 {

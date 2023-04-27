@@ -6,7 +6,7 @@
   "style": "lib/index.css",
   "exports": {
     ".": "./lib/index.css",
-    "./lib/*": "./lib/*",
+    "./tokens": "./lib/tokens/index.css",
     "./docs/*": "./docs/*"
   },
   "license": "MIT",

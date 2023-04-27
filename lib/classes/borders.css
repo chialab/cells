@@ -1,4 +1,4 @@
-@import '../borders.css';
+@import '../tokens/borders.css';
 
 @layer utilities {
     .radius-0 {

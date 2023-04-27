@@ -1,14 +1,3 @@
 @import './globals.css';
-@import './spacing.css';
-@import './outline.css';
-@import './animations.css';
-@import './classes/layout.css';
-@import './classes/paddings.css';
-@import './classes/margins.css';
-@import './classes/typography.css';
-@import './classes/shadows.css';
-@import './classes/borders.css';
-@import './classes/clamping.css';
-@import './classes/scrollbar.css';
-@import './classes/objects.css';
-@import './classes/theme.css';
+@import './tokens/index.css';
+@import './classes/index.css';

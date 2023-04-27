@@ -1,4 +1,4 @@
-@import '../typography.css';
+@import '../tokens/typography.css';
 
 @layer typography {
     .sans {

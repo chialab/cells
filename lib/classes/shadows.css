@@ -1,4 +1,4 @@
-@import '../shadows.css';
+@import '../tokens/shadows.css';
 
 @layer utilities {
     .deep-1 {

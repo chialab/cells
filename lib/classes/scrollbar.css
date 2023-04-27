@@ -1,4 +1,4 @@
-@import '../scrollbar.css';
+@import '../tokens/scrollbar.css';
 
 @layer utilities {
     .scrollbar::-webkit-scrollbar {

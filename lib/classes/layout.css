@@ -1,4 +1,4 @@
-@import '../layout.css';
+@import '../tokens/layout.css';
 
 @layer layout {
     .viewport {

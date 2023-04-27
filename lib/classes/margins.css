@@ -1,4 +1,4 @@
-@import '../margins.css';
+@import '../tokens/margins.css';
 
 @layer layout {
     .m-auto {
