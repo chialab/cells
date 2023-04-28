@@ -1,0 +1,21 @@
+@layer utilities {
+    :root {
+        /**
+         * @tokens Scrollbars
+         * @presenter Spacing
+         */
+        --scrollbar-width: 8px;
+
+        /**
+         * @tokens Scrollbars
+         * @presenter BorderRadius
+         */
+        --scrollbar-radius: 12px;
+
+        /**
+         * @tokens Scrollbars
+         * @presenter Color
+         */
+        --scrollbar-thumb-color: rgba(0, 0, 0, 0.25);
+    }
+}

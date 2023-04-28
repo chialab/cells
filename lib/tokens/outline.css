@@ -1,0 +1,16 @@
+@layer utilities {
+    :root {
+        /**
+         * @tokens Outline
+         * @presenter Color
+         */
+        --outline-color: #0077ff;
+
+        /**
+         * @tokens Outline
+         */
+        --outline-width: 2px;
+        --outline: auto var(--outline-width) var(--outline-color);
+        --outline-offset: var(--base, 0.25rem);
+    }
+}

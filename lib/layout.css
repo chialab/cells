@@ -1,7 +1,0 @@
-:root {
-    --gutter: var(--spacing, calc(var(--base, 0.25rem) * 4));
-    --gap: var(--spacing, calc(var(--base, 0.25rem) * 4));
-    --viewport: 1280px;
-    --columns: 12;
-    --column: calc((var(--viewport) - var(--gap) * (var(--columns) - 1) - var(--gutter) * 2) / var(--columns));
-}

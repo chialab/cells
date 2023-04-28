@@ -1,0 +1,9 @@
+@layer layout {
+    /**
+     * @tokens Spacing
+     * @presenter Spacing
+     */
+    :root {
+        --margin: calc(var(--base, 0.25rem) * 2);
+    }
+}

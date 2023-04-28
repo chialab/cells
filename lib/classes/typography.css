@@ -1,101 +1,127 @@
-@import '../typography.css';
+@import '../tokens/typography.css';
 
-.sans {
-    font-family: var(--font-sans);
-}
+@layer typography {
+    .sans {
+        font-family: var(--font-sans);
+    }
 
-.serif {
-    font-family: var(--font-serif);
-}
+    .serif {
+        font-family: var(--font-serif);
+    }
 
-.mono {
-    font-family: var(--font-mono);
-}
+    .mono {
+        font-family: var(--font-mono);
+    }
 
-.light {
-    font-weight: var(--weight-light);
-}
+    .light {
+        font-weight: var(--weight-light);
+    }
 
-.regular {
-    font-weight: var(--weight-normal);
-}
+    .regular {
+        font-weight: var(--weight-normal);
+    }
 
-.bold {
-    font-weight: var(--weight-bold);
-}
+    .bold {
+        font-weight: var(--weight-bold);
+    }
 
-.italic {
-    font-style: italic;
-}
+    .italic {
+        font-style: italic;
+    }
 
-.oblique {
-    font-style: oblique;
-}
+    .oblique {
+        font-style: oblique;
+    }
 
-.f-xs {
-    font-size: var(--font-size-xsmall);
-}
+    .f-xs {
+        font-size: var(--font-size-xsmall);
+    }
 
-.f-s {
-    font-size: var(--font-size-small);
-}
+    .f-s {
+        font-size: var(--font-size-small);
+    }
 
-.f-1 {
-    font-size: var(--font-size-1);
-}
+    .f-1 {
+        font-size: var(--font-size-1);
+    }
 
-.f-2 {
-    font-size: var(--font-size-2);
-}
+    .f-2 {
+        font-size: var(--font-size-2);
+    }
 
-.f-3 {
-    font-size: var(--font-size-3);
-}
+    .f-3 {
+        font-size: var(--font-size-3);
+    }
 
-.f-4 {
-    font-size: var(--font-size-4);
-}
+    .f-4 {
+        font-size: var(--font-size-4);
+    }
 
-.f-5 {
-    font-size: var(--font-size-5);
-}
+    .f-5 {
+        font-size: var(--font-size-5);
+    }
 
-.f-6 {
-    font-size: var(--font-size-6);
-}
+    .f-6 {
+        font-size: var(--font-size-6);
+    }
 
-.f-7 {
-    font-size: var(--font-size-7);
-}
+    .f-7 {
+        font-size: var(--font-size-7);
+    }
 
-.f-8 {
-    font-size: var(--font-size-8);
-}
+    .f-8 {
+        font-size: var(--font-size-8);
+    }
 
-.f-9 {
-    font-size: var(--font-size-9);
-}
+    .f-9 {
+        font-size: var(--font-size-9);
+    }
 
-.heading-1 {
-    font-size: var(--font-size-8);
-}
+    .lh-1 {
+        line-height: var(--line-height-1);
+    }
 
-.heading-2 {
-    font-size: var(--font-size-7);
-}
+    .lh-2 {
+        line-height: var(--line-height-2);
+    }
 
-.heading-3 {
-    font-size: var(--font-size-6);
-}
+    .lh-3 {
+        line-height: var(--line-height-3);
+    }
 
-.heading-4 {
-    font-size: var(--font-size-5);
-}
+    .lh-4 {
+        line-height: var(--line-height-4);
+    }
 
-.heading-5 {
-    font-size: var(--font-size-4);
-}
+    .lh-5 {
+        line-height: var(--line-height-5);
+    }
 
-.heading-6 {
-    font-size: var(--font-size-3);
+    .lh-6 {
+        line-height: var(--line-height-6);
+    }
+
+    .heading-1 {
+        font-size: var(--font-size-8);
+    }
+
+    .heading-2 {
+        font-size: var(--font-size-7);
+    }
+
+    .heading-3 {
+        font-size: var(--font-size-6);
+    }
+
+    .heading-4 {
+        font-size: var(--font-size-5);
+    }
+
+    .heading-5 {
+        font-size: var(--font-size-4);
+    }
+
+    .heading-6 {
+        font-size: var(--font-size-3);
+    }
 }

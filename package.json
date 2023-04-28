@@ -1,11 +1,24 @@
 {
   "name": "@chialab/cells",
-  "version": "1.5.2",
+  "version": "1.6.0-beta.0",
   "description": "A strongly opinionated modular utility-first CSS library.",
   "author": "Chialab <dev@chialab.io> (https://www.chialab.it)",
-  "style": "lib/index.css",
   "exports": {
     ".": "./lib/index.css",
+    "./tokens": "./lib/tokens/index.css",
+    "./classes": "./lib/classes/index.css",
+    "./globals": "./lib/globals.css",
+    "./website": "./lib/presets/website.css",
+    "./lib/animation.css": "./lib/tokens/animation.css",
+    "./lib/borders.css": "./lib/tokens/borders.css",
+    "./lib/layout.css": "./lib/tokens/layout.css",
+    "./lib/margins.css": "./lib/tokens/margins.css",
+    "./lib/paddings.css": "./lib/tokens/paddings.css",
+    "./lib/scrollbar.css": "./lib/tokens/scrollbar.css",
+    "./lib/shadows.css": "./lib/tokens/shadows.css",
+    "./lib/spacing.css": "./lib/tokens/spacing.css",
+    "./lib/colors.css": "./lib/tokens/theme.css",
+    "./lib/typography.css": "./lib/tokens/typography.css",
     "./lib/*": "./lib/*",
     "./docs/*": "./docs/*"
   },
@@ -23,9 +36,6 @@
   },
   "devDependencies": {
     "@changesets/cli": "^2.23.1",
-    "@chialab/rna": "^0.15.0",
-    "@chialab/rna-bundler": "^0.15.0",
-    "@chialab/rna-dev-server": "^0.15.0",
     "@chialab/stylelint-config": "^2.0.0",
     "stylelint": "^14.3.0"
   }

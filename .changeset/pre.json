@@ -1,0 +1,12 @@
+{
+  "mode": "pre",
+  "tag": "beta",
+  "initialVersions": {
+    "@chialab/cells": "1.5.2"
+  },
+  "changesets": [
+    "sweet-steaks-do",
+    "tall-peaches-vanish",
+    "wicked-countries-play"
+  ]
+}

@@ -1,0 +1,14 @@
+@layer utilities {
+    :root {
+        /**
+         * @tokens Animations
+         * @presenter Easing
+         */
+        --easing: ease-out;
+
+        /**
+         * @tokens Animations
+         */
+        --easing-time: 250ms;
+    }
+}

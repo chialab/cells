@@ -1,49 +1,51 @@
-@import '../borders.css';
+@import '../tokens/borders.css';
 
-.radius-0 {
-    border-radius: 0;
-}
+@layer utilities {
+    .radius-0 {
+        border-radius: 0;
+    }
 
-.radius-1 {
-    border-radius: var(--radius);
-}
+    .radius-1 {
+        border-radius: var(--radius);
+    }
 
-.radius-2 {
-    border-radius: calc(var(--radius) * 2);
-}
+    .radius-2 {
+        border-radius: calc(var(--radius) * 2);
+    }
 
-.radius-3 {
-    border-radius: calc(var(--radius) * 3);
-}
+    .radius-3 {
+        border-radius: calc(var(--radius) * 3);
+    }
 
-.radius-4 {
-    border-radius: calc(var(--radius) * 4);
-}
+    .radius-4 {
+        border-radius: calc(var(--radius) * 4);
+    }
 
-.radius-5 {
-    border-radius: calc(var(--radius) * 5);
-}
+    .radius-5 {
+        border-radius: calc(var(--radius) * 5);
+    }
 
-.radius-6 {
-    border-radius: calc(var(--radius) * 6);
-}
+    .radius-6 {
+        border-radius: calc(var(--radius) * 6);
+    }
 
-.radius-7 {
-    border-radius: calc(var(--radius) * 7);
-}
+    .radius-7 {
+        border-radius: calc(var(--radius) * 7);
+    }
 
-.radius-8 {
-    border-radius: calc(var(--radius) * 8);
-}
+    .radius-8 {
+        border-radius: calc(var(--radius) * 8);
+    }
 
-.radius-9 {
-    border-radius: calc(var(--radius) * 9);
-}
+    .radius-9 {
+        border-radius: calc(var(--radius) * 9);
+    }
 
-.radius-10 {
-    border-radius: calc(var(--radius) * 10);
-}
+    .radius-10 {
+        border-radius: calc(var(--radius) * 10);
+    }
 
-.radius-full {
-    border-radius: 50%;
+    .radius-full {
+        border-radius: 50%;
+    }
 }

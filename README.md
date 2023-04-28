@@ -10,12 +10,10 @@ Since it does not try to cover the entire styling experience of a project, it do
 
 > Please note that **Cells** does not aim to compete in the CSS frameworks market. It will evolve in the only interest of our development teams, but we are happy to share and discuss design choices with other developers.
 
-**Cells** is distribuited as plain CSS files. You can import the whole library using the `index.css` file or single modules from the `lib` folder. Each module is configurable using CSS custom properties.
-
 Implemented modules:
 
 * **Spacing** defines base spacing variables
-* **Colors** defines base theming variables such as `primary`, `secondary` and `accent` colors and base text and background colors classes
+* **Theming** defines base theming variables such as `primary`, `secondary` and `accent` colors and base text and background colors classes
 * **Typography** defines base variables for families, weights and size scale, as well as declinated classes for composition
 * **Layout** contains classes for general grid layout, as well as utility classes for flexbox specs
 * **Paddings** contains classes to set incremental paddings, from `p-0` to `p-10` and with `px`, `py`, `pt`, `pr`, `pb`, `pl` variants
@@ -36,39 +34,29 @@ Presets:
 You can install and consume **Cells** with [`npm`](https://www.npmjs.com/):
 
 ```sh
-$ npm i @chialab/cells
-$ yarn add @chialab/cells
+npm i @chialab/cells
 ```
 
-and import it in your stylesheet:
+```sh
+yarn add @chialab/cells
+```
 
+and import it in your application/module:
+
+**main.css**
 ```css
-@import '@chialab/cells';
+@layer globals, layout, typography, theme, utilities;
+
+@import '@chialab/cells/tokens';
+@import '@chialab/cells/classes';
+@import '@chialab/cells/globals';
+/* OR */
+@import '@chialab/cells/website';
 ```
 
-or using the unpkg CDN:
-
-```html
-<link rel="stylesheet" href="https://unpkg.com/@chialab/cells/lib/index.css" />
-```
-
-```css
-@import 'https://unpkg.com/@chialab/cells/lib/index.css';
-```
-
----
-
-## Correctly set `--window-width` variable.
-
-Viewport units (`vw`, `vh`) do not take into account scrollbars width. In Cells, we use the `overflow: overlay;` property in order to avoid horizontal scrolling when using `100vw` in mobile viewports, but that property is not a safe cross-browser solution and will be removed in the next major iteration of Cells. From 1.5.0, to solve this problem we have introduced the `--window-width` variable that can be set using the following JavaScript snippet:
-
+**main.js**
 ```js
-function updateViewportSize() {
-    document.documentElement.style.setProperty('--window-width', `${document.body.clientWidth}px`);
-};
-
-updateViewportSize();
-window.addEventListener('resize', updateViewportSize);
+import '@chialab/cells';
 ```
 
 ---
