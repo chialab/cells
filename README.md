@@ -45,6 +45,8 @@ and import it in your application/module:
 
 **main.css**
 ```css
+@layer globals, layout, typography, theme, utilities;
+
 @import '@chialab/cells/tokens';
 @import '@chialab/cells/classes';
 @import '@chialab/cells/globals';
