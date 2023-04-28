@@ -1,5 +1,16 @@
 # [1.4.0](https://github.com/chialab/cells/compare/v1.3.0...v1.4.0) (2022-04-19)
 
+## 1.6.0-beta.0
+
+### Minor Changes
+
+- 879a932: Introducing CSS cascade layers.
+- 879a932: Add JS module for `--window-width` calculation.
+
+### Patch Changes
+
+- 879a932: Refactored tokens structure.
+
 ## 1.5.2
 
 ### Patch Changes

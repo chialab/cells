@@ -4,5 +4,9 @@
   "initialVersions": {
     "@chialab/cells": "1.5.2"
   },
-  "changesets": []
+  "changesets": [
+    "sweet-steaks-do",
+    "tall-peaches-vanish",
+    "wicked-countries-play"
+  ]
 }
