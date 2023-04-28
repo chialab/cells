@@ -10,12 +10,10 @@ Since it does not try to cover the entire styling experience of a project, it do
 
 > Please note that **Cells** does not aim to compete in the CSS frameworks market. It will evolve in the only interest of our development teams, but we are happy to share and discuss design choices with other developers.
 
-**Cells** is distribuited as plain CSS files. You can import the whole library using the `index.css` file or single modules from the `lib` folder. Each module is configurable using CSS custom properties.
-
 Implemented modules:
 
 * **Spacing** defines base spacing variables
-* **Colors** defines base theming variables such as `primary`, `secondary` and `accent` colors and base text and background colors classes
+* **Theming** defines base theming variables such as `primary`, `secondary` and `accent` colors and base text and background colors classes
 * **Typography** defines base variables for families, weights and size scale, as well as declinated classes for composition
 * **Layout** contains classes for general grid layout, as well as utility classes for flexbox specs
 * **Paddings** contains classes to set incremental paddings, from `p-0` to `p-10` and with `px`, `py`, `pt`, `pr`, `pb`, `pl` variants
@@ -43,20 +41,20 @@ npm i @chialab/cells
 yarn add @chialab/cells
 ```
 
-and import it in your stylesheet:
+and import it in your application/module:
 
+**main.css**
 ```css
-@import '@chialab/cells';
+@import '@chialab/cells/tokens';
+@import '@chialab/cells/classes';
+@import '@chialab/cells/globals';
+/* OR */
+@import '@chialab/cells/website';
 ```
 
-or using the unpkg CDN:
-
-```html
-<link rel="stylesheet" href="https://unpkg.com/@chialab/cells/lib/index.css" />
-```
-
-```css
-@import 'https://unpkg.com/@chialab/cells/lib/index.css';
+**main.js**
+```js
+import '@chialab/cells';
 ```
 
 ---
