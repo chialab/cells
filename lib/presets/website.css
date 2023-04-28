@@ -1,6 +1,6 @@
+@import '../globals.css';
 @import '../tokens/index.css';
 @import '../classes/index.css';
-@import '../globals.css';
 @import '../breakpoints/viewport-640.css';
 @import '../breakpoints/viewport-640-768.css';
 @import '../breakpoints/viewport-768-1024.css';
