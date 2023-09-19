@@ -1,5 +1,5 @@
-[class^='clamp-'],
-[class*=' clamp-'] {
+[class^='clamp-']:not(.clamp-1),
+[class*=' clamp-']:not(.clamp-1) {
     --line-clamp: 1;
 
     display: -webkit-box;
