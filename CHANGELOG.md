@@ -1,5 +1,11 @@
 # [1.4.0](https://github.com/chialab/cells/compare/v1.3.0...v1.4.0) (2022-04-19)
 
+## 1.5.3
+
+### Patch Changes
+
+- d044eff: Fix `clamp-1` class.
+
 ## 1.5.2
 
 ### Patch Changes
