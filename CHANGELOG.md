@@ -1,5 +1,11 @@
 # [1.4.0](https://github.com/chialab/cells/compare/v1.3.0...v1.4.0) (2022-04-19)
 
+## 1.5.4
+
+### Patch Changes
+
+- 913a570: Fix clamping variable specificity.
+
 ## 1.5.3
 
 ### Patch Changes
