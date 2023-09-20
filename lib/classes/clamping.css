@@ -1,11 +1,9 @@
 [class^='clamp-']:not(.clamp-1),
 [class*=' clamp-']:not(.clamp-1) {
-    --line-clamp: 1;
-
     display: -webkit-box;
-    line-clamp: var(--line-clamp);
+    line-clamp: var(--line-clamp, 1);
     overflow: hidden;
-    -webkit-line-clamp: var(--line-clamp);
+    -webkit-line-clamp: var(--line-clamp, 1);
     -webkit-box-orient: vertical;
 }
 
