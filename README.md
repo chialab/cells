@@ -35,9 +35,12 @@ Presets:
 
 You can install and consume **Cells** with [`npm`](https://www.npmjs.com/):
 
-```sh
-$ npm i @chialab/cells
-$ yarn add @chialab/cells
+```
+npm i @chialab/cells
+```
+
+```
+yarn add @chialab/cells
 ```
 
 and import it in your stylesheet:
