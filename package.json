@@ -20,13 +20,17 @@
     "docs"
   ],
   "scripts": {
-    "lint": "prettier --check . && stylelint lib"
+    "dev": "vite",
+    "lint": "prettier --check . && stylelint lib",
+    "pages:build": "vite build"
   },
   "devDependencies": {
     "@changesets/cli": "^2.23.1",
+    "@chialab/dna": "^3.22.4",
     "@chialab/prettier-config": "^1.2.2",
     "@chialab/stylelint-config": "^4.0.0",
     "prettier": "^3.2.4",
-    "stylelint": "^16.0.0"
+    "stylelint": "^16.0.0",
+    "vite": "^5.0.12"
   }
 }
