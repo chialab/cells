@@ -14,20 +14,20 @@ Since it does not try to cover the entire styling experience of a project, it do
 
 Implemented modules:
 
-* **Spacing** defines base spacing variables
-* **Colors** defines base theming variables such as `primary`, `secondary` and `accent` colors and base text and background colors classes
-* **Typography** defines base variables for families, weights and size scale, as well as declinated classes for composition
-* **Layout** contains classes for general grid layout, as well as utility classes for flexbox specs
-* **Paddings** contains classes to set incremental paddings, from `p-0` to `p-10` and with `px`, `py`, `pt`, `pr`, `pb`, `pl` variants
-* **Margins** contains classes to set incremental margins, from `m-0` to `m-10` and with `mx`, `my`, `mt`, `mr`, `mb`, `ml` variants
-* **Borders** contains `radius-N` classes for rounded borders
-* **Shadows** contains both classes for inset shadows, from `deep-1` to `deep-4`, and drop shadows from `elevation-0` to `elevation-10` plus `elevation-12`, `elevation-186` and `elevation-24`
-* **Outline** customizes the global page outline for keyboard navigation
-* **Scollbar** contains classes to customize scrollbars
+-   **Spacing** defines base spacing variables
+-   **Colors** defines base theming variables such as `primary`, `secondary` and `accent` colors and base text and background colors classes
+-   **Typography** defines base variables for families, weights and size scale, as well as declinated classes for composition
+-   **Layout** contains classes for general grid layout, as well as utility classes for flexbox specs
+-   **Paddings** contains classes to set incremental paddings, from `p-0` to `p-10` and with `px`, `py`, `pt`, `pr`, `pb`, `pl` variants
+-   **Margins** contains classes to set incremental margins, from `m-0` to `m-10` and with `mx`, `my`, `mt`, `mr`, `mb`, `ml` variants
+-   **Borders** contains `radius-N` classes for rounded borders
+-   **Shadows** contains both classes for inset shadows, from `deep-1` to `deep-4`, and drop shadows from `elevation-0` to `elevation-10` plus `elevation-12`, `elevation-186` and `elevation-24`
+-   **Outline** customizes the global page outline for keyboard navigation
+-   **Scollbar** contains classes to customize scrollbars
 
 Presets:
 
-* **Website** configures the grid layout for each viewport (mobile 4 columns, tablet portrait 6 columns, tablet landscape 8 columns, desktop 12 columns)
+-   **Website** configures the grid layout for each viewport (mobile 4 columns, tablet portrait 6 columns, tablet landscape 8 columns, desktop 12 columns)
 
 ## Usage
 
@@ -49,7 +49,9 @@ and import it in your stylesheet:
 or using the unpkg CDN:
 
 ```html
-<link rel="stylesheet" href="https://unpkg.com/@chialab/cells/lib/index.css" />
+<link
+    rel="stylesheet"
+    href="https://unpkg.com/@chialab/cells/lib/index.css" />
 ```
 
 ```css
@@ -65,7 +67,7 @@ Viewport units (`vw`, `vh`) do not take into account scrollbars width. In Cells,
 ```js
 function updateViewportSize() {
     document.documentElement.style.setProperty('--window-width', `${document.body.clientWidth}px`);
-};
+}
 
 updateViewportSize();
 window.addEventListener('resize', updateViewportSize);

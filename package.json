@@ -1,6 +1,7 @@
 {
   "name": "@chialab/cells",
   "version": "1.5.4",
+  "type": "module",
   "description": "A strongly opinionated modular utility-first CSS library.",
   "author": "Chialab <dev@chialab.io> (https://www.chialab.it)",
   "style": "lib/index.css",
@@ -19,14 +20,13 @@
     "docs"
   ],
   "scripts": {
-    "lint": "stylelint lib"
+    "lint": "prettier --check . && stylelint lib"
   },
   "devDependencies": {
     "@changesets/cli": "^2.23.1",
-    "@chialab/rna": "^0.15.0",
-    "@chialab/rna-bundler": "^0.15.0",
-    "@chialab/rna-dev-server": "^0.15.0",
-    "@chialab/stylelint-config": "^2.0.0",
-    "stylelint": "^14.3.0"
+    "@chialab/prettier-config": "^1.2.2",
+    "@chialab/stylelint-config": "^4.0.0",
+    "prettier": "^3.2.4",
+    "stylelint": "^16.0.0"
   }
 }

@@ -1,112 +1,298 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8" />
+        <meta
+            http-equiv="X-UA-Compatible"
+            content="IE=edge" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0" />
         <title>Cells - Chialab</title>
-        <link rel="shortcut icon" href="https://www.chialab.it/favicon.png" type="image/png">
-        <link rel="stylesheet" href="./lib/presets/website.css">
-        <link rel="stylesheet" href="docs/Token.css">
-        <script async src="https://ga.jspm.io/npm:es-module-shims@1.5.4/dist/es-module-shims.js"></script>
+        <link
+            rel="shortcut icon"
+            href="https://www.chialab.it/favicon.png"
+            type="image/png" />
+        <link
+            rel="stylesheet"
+            href="./lib/presets/website.css" />
+        <link
+            rel="stylesheet"
+            href="docs/Token.css" />
+        <script
+            async
+            src="https://ga.jspm.io/npm:es-module-shims@1.5.4/dist/es-module-shims.js"></script>
         <script type="importmap">
             {
-              "imports": {
-                  "@chialab/dna": "https://unpkg.com/@chialab/dna?module"
-              }
+                "imports": {
+                    "@chialab/dna": "https://unpkg.com/@chialab/dna?module"
+                }
             }
         </script>
-        <script type="module" src="docs/Token.js"></script>
+        <script
+            type="module"
+            src="docs/Token.js"></script>
     </head>
     <body class="sans pt-2 pb-6 bg-surface">
         <div class="viewport column mx-auto">
             <div class="my-4">
                 <h1 class="m-0 heading-1">Cells</h1>
-                <h2 class="m-0 heading-4 light">A <strong class="bold">strongly</strong> opinionated modular utility-first CSS library.</h2>
+                <h2 class="m-0 heading-4 light"
+                    >A <strong class="bold">strongly</strong> opinionated modular utility-first CSS library.</h2
+                >
             </div>
             <h3 class="m-0 heading-3">Typography</h3>
             <h4 class="m-0 heading-6">Font families</h4>
             <div class="column full mb-2">
-                <cells-design-token name="--font-sans" rule="sans" type="family"></cells-design-token>
-                <cells-design-token name="--font-serif" rule="serif" type="family"></cells-design-token>
-                <cells-design-token name="--font-mono" rule="mono" type="family"></cells-design-token>
+                <cells-design-token
+                    name="--font-sans"
+                    rule="sans"
+                    type="family"></cells-design-token>
+                <cells-design-token
+                    name="--font-serif"
+                    rule="serif"
+                    type="family"></cells-design-token>
+                <cells-design-token
+                    name="--font-mono"
+                    rule="mono"
+                    type="family"></cells-design-token>
             </div>
             <h4 class="m-0 heading-6">Font weights</h4>
             <div class="column full mb-2">
-                <cells-design-token name="--weight-light" rule="light" type="weight"></cells-design-token>
-                <cells-design-token name="--weight-normal" rule="regular" type="weight"></cells-design-token>
-                <cells-design-token name="--weight-bold" rule="bold" type="weight"></cells-design-token>
+                <cells-design-token
+                    name="--weight-light"
+                    rule="light"
+                    type="weight"></cells-design-token>
+                <cells-design-token
+                    name="--weight-normal"
+                    rule="regular"
+                    type="weight"></cells-design-token>
+                <cells-design-token
+                    name="--weight-bold"
+                    rule="bold"
+                    type="weight"></cells-design-token>
             </div>
             <h4 class="m-0 heading-6">Font sizes</h4>
             <div class="column full mb-2">
-                <cells-design-token name="--font-size-xsmall" rule="f-xs" type="size"></cells-design-token>
-                <cells-design-token name="--font-size-small" rule="f-s" type="size"></cells-design-token>
-                <cells-design-token name="--font-size-1" rule="f-1" type="size"></cells-design-token>
-                <cells-design-token name="--font-size-2" rule="f-2" type="size"></cells-design-token>
-                <cells-design-token name="--font-size-3" rule="f-3" type="size"></cells-design-token>
-                <cells-design-token name="--font-size-4" rule="f-4" type="size"></cells-design-token>
-                <cells-design-token name="--font-size-5" rule="f-5" type="size"></cells-design-token>
-                <cells-design-token name="--font-size-6" rule="f-6" type="size"></cells-design-token>
-                <cells-design-token name="--font-size-7" rule="f-7" type="size"></cells-design-token>
-                <cells-design-token name="--font-size-8" rule="f-8" type="size"></cells-design-token>
-                <cells-design-token name="--font-size-9" rule="f-9" type="size"></cells-design-token>
+                <cells-design-token
+                    name="--font-size-xsmall"
+                    rule="f-xs"
+                    type="size"></cells-design-token>
+                <cells-design-token
+                    name="--font-size-small"
+                    rule="f-s"
+                    type="size"></cells-design-token>
+                <cells-design-token
+                    name="--font-size-1"
+                    rule="f-1"
+                    type="size"></cells-design-token>
+                <cells-design-token
+                    name="--font-size-2"
+                    rule="f-2"
+                    type="size"></cells-design-token>
+                <cells-design-token
+                    name="--font-size-3"
+                    rule="f-3"
+                    type="size"></cells-design-token>
+                <cells-design-token
+                    name="--font-size-4"
+                    rule="f-4"
+                    type="size"></cells-design-token>
+                <cells-design-token
+                    name="--font-size-5"
+                    rule="f-5"
+                    type="size"></cells-design-token>
+                <cells-design-token
+                    name="--font-size-6"
+                    rule="f-6"
+                    type="size"></cells-design-token>
+                <cells-design-token
+                    name="--font-size-7"
+                    rule="f-7"
+                    type="size"></cells-design-token>
+                <cells-design-token
+                    name="--font-size-8"
+                    rule="f-8"
+                    type="size"></cells-design-token>
+                <cells-design-token
+                    name="--font-size-9"
+                    rule="f-9"
+                    type="size"></cells-design-token>
             </div>
             <h3 class="m-0 heading-3">Colors</h3>
             <div class="row align-justify full mb-2">
-                <cells-design-token name="--color-surface" rule="bg-surface" type="background" class="w-3">
-                    <cells-design-token name="--color-text" type="color"></cells-design-token>
+                <cells-design-token
+                    name="--color-surface"
+                    rule="bg-surface"
+                    type="background"
+                    class="w-3">
+                    <cells-design-token
+                        name="--color-text"
+                        type="color"></cells-design-token>
                 </cells-design-token>
-                <cells-design-token name="--color-primary" rule="bg-primary" type="background" class="w-3">
-                    <cells-design-token name="--color-primary--text" rule="text-primary" type="color"></cells-design-token>
+                <cells-design-token
+                    name="--color-primary"
+                    rule="bg-primary"
+                    type="background"
+                    class="w-3">
+                    <cells-design-token
+                        name="--color-primary--text"
+                        rule="text-primary"
+                        type="color"></cells-design-token>
                 </cells-design-token>
-                <cells-design-token name="--color-secondary" rule="bg-secondary" type="background" class="w-3">
-                    <cells-design-token name="--color-secondary--text" rule="text-secondary" type="color"></cells-design-token>
+                <cells-design-token
+                    name="--color-secondary"
+                    rule="bg-secondary"
+                    type="background"
+                    class="w-3">
+                    <cells-design-token
+                        name="--color-secondary--text"
+                        rule="text-secondary"
+                        type="color"></cells-design-token>
                 </cells-design-token>
-                <cells-design-token name="--color-accent" rule="bg-accent" type="background" class="w-3">
-                    <cells-design-token name="--color-accent--text" rule="text-accent" type="color"></cells-design-token>
+                <cells-design-token
+                    name="--color-accent"
+                    rule="bg-accent"
+                    type="background"
+                    class="w-3">
+                    <cells-design-token
+                        name="--color-accent--text"
+                        rule="text-accent"
+                        type="color"></cells-design-token>
                 </cells-design-token>
-                <cells-design-token name="--color-disabled" rule="bg-disabled" type="background" class="w-3">
-                    <cells-design-token name="--color-disabled--text" rule="text-disabled" type="color"></cells-design-token>
+                <cells-design-token
+                    name="--color-disabled"
+                    rule="bg-disabled"
+                    type="background"
+                    class="w-3">
+                    <cells-design-token
+                        name="--color-disabled--text"
+                        rule="text-disabled"
+                        type="color"></cells-design-token>
                 </cells-design-token>
-                <cells-design-token name="--color-success" rule="bg-success" type="background" class="w-3">
-                    <cells-design-token name="--color-success--text" rule="text-success" type="color"></cells-design-token>
+                <cells-design-token
+                    name="--color-success"
+                    rule="bg-success"
+                    type="background"
+                    class="w-3">
+                    <cells-design-token
+                        name="--color-success--text"
+                        rule="text-success"
+                        type="color"></cells-design-token>
                 </cells-design-token>
-                <cells-design-token name="--color-fail" rule="bg-fail" type="background" class="w-3">
-                    <cells-design-token name="--color-fail--text" rule="text-fail" type="color"></cells-design-token>
+                <cells-design-token
+                    name="--color-fail"
+                    rule="bg-fail"
+                    type="background"
+                    class="w-3">
+                    <cells-design-token
+                        name="--color-fail--text"
+                        rule="text-fail"
+                        type="color"></cells-design-token>
                 </cells-design-token>
-                <cells-design-token name="--color-warning" rule="bg-warning" type="background" class="w-3">
-                    <cells-design-token name="--color-warning--text" rule="text-warning" type="color"></cells-design-token>
+                <cells-design-token
+                    name="--color-warning"
+                    rule="bg-warning"
+                    type="background"
+                    class="w-3">
+                    <cells-design-token
+                        name="--color-warning--text"
+                        rule="text-warning"
+                        type="color"></cells-design-token>
                 </cells-design-token>
-                <cells-design-token name="--color-info" rule="bg-info" type="background" class="w-3">
-                    <cells-design-token name="--color-info--text" rule="text-info" type="color"></cells-design-token>
+                <cells-design-token
+                    name="--color-info"
+                    rule="bg-info"
+                    type="background"
+                    class="w-3">
+                    <cells-design-token
+                        name="--color-info--text"
+                        rule="text-info"
+                        type="color"></cells-design-token>
                 </cells-design-token>
-                <cells-design-token name="--color-neutral" rule="bg-neutral" type="background" class="w-3">
-                    <cells-design-token name="--color-neutral--text" rule="text-neutral" type="color"></cells-design-token>
+                <cells-design-token
+                    name="--color-neutral"
+                    rule="bg-neutral"
+                    type="background"
+                    class="w-3">
+                    <cells-design-token
+                        name="--color-neutral--text"
+                        rule="text-neutral"
+                        type="color"></cells-design-token>
                 </cells-design-token>
-                <cells-design-token name="--color-overlay" rule="bg-overlay" type="background" class="w-3">
-                    <cells-design-token name="--color-overlay--text" rule="text-overlay" type="color"></cells-design-token>
+                <cells-design-token
+                    name="--color-overlay"
+                    rule="bg-overlay"
+                    type="background"
+                    class="w-3">
+                    <cells-design-token
+                        name="--color-overlay--text"
+                        rule="text-overlay"
+                        type="color"></cells-design-token>
                 </cells-design-token>
-                <cells-design-token name="--color-overlay-gradient" type="background" class="w-3"></cells-design-token>
+                <cells-design-token
+                    name="--color-overlay-gradient"
+                    type="background"
+                    class="w-3"></cells-design-token>
             </div>
             <h3 class="m-0 heading-3">Layout</h3>
             <div class="column full mb-2">
-                <cells-design-token rule="row" type="row" class="full"></cells-design-token>
-                <cells-design-token rule="row center" type="row" class="full"></cells-design-token>
-                <cells-design-token rule="row end" type="row" class="full"></cells-design-token>
-                <cells-design-token rule="row justify" type="row" class="full"></cells-design-token>
-                <cells-design-token rule="row align-center" type="row" class="full"></cells-design-token>
-                <cells-design-token rule="row align-end" type="row" class="full"></cells-design-token>
-                <cells-design-token rule="row align-baseline" type="row" class="full"></cells-design-token>
+                <cells-design-token
+                    rule="row"
+                    type="row"
+                    class="full"></cells-design-token>
+                <cells-design-token
+                    rule="row center"
+                    type="row"
+                    class="full"></cells-design-token>
+                <cells-design-token
+                    rule="row end"
+                    type="row"
+                    class="full"></cells-design-token>
+                <cells-design-token
+                    rule="row justify"
+                    type="row"
+                    class="full"></cells-design-token>
+                <cells-design-token
+                    rule="row align-center"
+                    type="row"
+                    class="full"></cells-design-token>
+                <cells-design-token
+                    rule="row align-end"
+                    type="row"
+                    class="full"></cells-design-token>
+                <cells-design-token
+                    rule="row align-baseline"
+                    type="row"
+                    class="full"></cells-design-token>
             </div>
             <div class="row full mb-2">
-                <cells-design-token rule="column" type="column" class="h-6"></cells-design-token>
-                <cells-design-token rule="column center" type="column" class="h-6"></cells-design-token>
-                <cells-design-token rule="column end" type="column" class="h-6"></cells-design-token>
-                <cells-design-token rule="column align-center" type="column" class="h-6"></cells-design-token>
-                <cells-design-token rule="column align-end" type="column" class="h-6"></cells-design-token>
+                <cells-design-token
+                    rule="column"
+                    type="column"
+                    class="h-6"></cells-design-token>
+                <cells-design-token
+                    rule="column center"
+                    type="column"
+                    class="h-6"></cells-design-token>
+                <cells-design-token
+                    rule="column end"
+                    type="column"
+                    class="h-6"></cells-design-token>
+                <cells-design-token
+                    rule="column align-center"
+                    type="column"
+                    class="h-6"></cells-design-token>
+                <cells-design-token
+                    rule="column align-end"
+                    type="column"
+                    class="h-6"></cells-design-token>
             </div>
             <div class="column full mb-2">
-                <cells-design-token rule="grid" type="grid" class="full"></cells-design-token>
+                <cells-design-token
+                    rule="grid"
+                    type="grid"
+                    class="full"></cells-design-token>
             </div>
             <h3 class="m-0 heading-3">Blocks</h3>
             <div class="row full mb-2">
@@ -119,264 +305,891 @@
             <h3 class="m-0 heading-3">Padding</h3>
             <div class="column full mb-2">
                 <div class="row full mb-2">
-                    <cells-design-token rule="p-0" type="padding" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="p-1" name="--padding" type="padding" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="p-2" type="padding" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="p-3" type="padding" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="p-4" type="padding" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="p-5" type="padding" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="p-6" type="padding" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="p-7" type="padding" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="p-8" type="padding" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="p-9" type="padding" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="p-10" type="padding" class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="p-0"
+                        type="padding"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="p-1"
+                        name="--padding"
+                        type="padding"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="p-2"
+                        type="padding"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="p-3"
+                        type="padding"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="p-4"
+                        type="padding"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="p-5"
+                        type="padding"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="p-6"
+                        type="padding"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="p-7"
+                        type="padding"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="p-8"
+                        type="padding"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="p-9"
+                        type="padding"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="p-10"
+                        type="padding"
+                        class="w-3 h-2"></cells-design-token>
                 </div>
                 <h4 class="m-0 heading-6">Horizontal</h4>
                 <div class="row full mb-2">
-                    <cells-design-token rule="px-0" type="padding" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="px-1" type="padding" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="px-2" type="padding" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="px-3" type="padding" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="px-4" type="padding" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="px-5" type="padding" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="px-6" type="padding" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="px-7" type="padding" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="px-8" type="padding" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="px-9" type="padding" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="px-10" type="padding" class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="px-0"
+                        type="padding"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="px-1"
+                        type="padding"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="px-2"
+                        type="padding"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="px-3"
+                        type="padding"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="px-4"
+                        type="padding"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="px-5"
+                        type="padding"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="px-6"
+                        type="padding"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="px-7"
+                        type="padding"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="px-8"
+                        type="padding"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="px-9"
+                        type="padding"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="px-10"
+                        type="padding"
+                        class="w-3 h-2"></cells-design-token>
                 </div>
                 <h4 class="m-0 heading-6">Vertical</h4>
                 <div class="row full mb-2">
-                    <cells-design-token rule="py-0" type="padding" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="py-1" type="padding" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="py-2" type="padding" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="py-3" type="padding" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="py-4" type="padding" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="py-5" type="padding" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="py-6" type="padding" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="py-7" type="padding" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="py-8" type="padding" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="py-9" type="padding" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="py-10" type="padding" class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="py-0"
+                        type="padding"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="py-1"
+                        type="padding"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="py-2"
+                        type="padding"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="py-3"
+                        type="padding"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="py-4"
+                        type="padding"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="py-5"
+                        type="padding"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="py-6"
+                        type="padding"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="py-7"
+                        type="padding"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="py-8"
+                        type="padding"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="py-9"
+                        type="padding"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="py-10"
+                        type="padding"
+                        class="w-3 h-2"></cells-design-token>
                 </div>
                 <h4 class="m-0 heading-6">Top</h4>
                 <div class="row full mb-2">
-                    <cells-design-token rule="pt-0" type="padding" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="pt-1" type="padding" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="pt-2" type="padding" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="pt-3" type="padding" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="pt-4" type="padding" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="pt-5" type="padding" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="pt-6" type="padding" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="pt-7" type="padding" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="pt-8" type="padding" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="pt-9" type="padding" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="pt-10" type="padding" class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="pt-0"
+                        type="padding"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="pt-1"
+                        type="padding"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="pt-2"
+                        type="padding"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="pt-3"
+                        type="padding"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="pt-4"
+                        type="padding"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="pt-5"
+                        type="padding"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="pt-6"
+                        type="padding"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="pt-7"
+                        type="padding"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="pt-8"
+                        type="padding"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="pt-9"
+                        type="padding"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="pt-10"
+                        type="padding"
+                        class="w-3 h-2"></cells-design-token>
                 </div>
                 <h4 class="m-0 heading-6">Right</h4>
                 <div class="row full mb-2">
-                    <cells-design-token rule="pr-0" type="padding" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="pr-1" type="padding" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="pr-2" type="padding" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="pr-3" type="padding" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="pr-4" type="padding" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="pr-5" type="padding" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="pr-6" type="padding" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="pr-7" type="padding" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="pr-8" type="padding" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="pr-9" type="padding" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="pr-10" type="padding" class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="pr-0"
+                        type="padding"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="pr-1"
+                        type="padding"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="pr-2"
+                        type="padding"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="pr-3"
+                        type="padding"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="pr-4"
+                        type="padding"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="pr-5"
+                        type="padding"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="pr-6"
+                        type="padding"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="pr-7"
+                        type="padding"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="pr-8"
+                        type="padding"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="pr-9"
+                        type="padding"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="pr-10"
+                        type="padding"
+                        class="w-3 h-2"></cells-design-token>
                 </div>
                 <h4 class="m-0 heading-6">Bottom</h4>
                 <div class="row full mb-2">
-                    <cells-design-token rule="pb-0" type="padding" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="pb-1" type="padding" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="pb-2" type="padding" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="pb-3" type="padding" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="pb-4" type="padding" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="pb-5" type="padding" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="pb-6" type="padding" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="pb-7" type="padding" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="pb-8" type="padding" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="pb-9" type="padding" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="pb-10" type="padding" class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="pb-0"
+                        type="padding"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="pb-1"
+                        type="padding"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="pb-2"
+                        type="padding"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="pb-3"
+                        type="padding"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="pb-4"
+                        type="padding"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="pb-5"
+                        type="padding"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="pb-6"
+                        type="padding"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="pb-7"
+                        type="padding"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="pb-8"
+                        type="padding"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="pb-9"
+                        type="padding"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="pb-10"
+                        type="padding"
+                        class="w-3 h-2"></cells-design-token>
                 </div>
                 <h4 class="m-0 heading-6">Left</h4>
                 <div class="row full">
-                    <cells-design-token rule="pl-0" type="padding" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="pl-1" type="padding" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="pl-2" type="padding" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="pl-3" type="padding" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="pl-4" type="padding" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="pl-5" type="padding" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="pl-6" type="padding" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="pl-7" type="padding" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="pl-8" type="padding" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="pl-9" type="padding" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="pl-10" type="padding" class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="pl-0"
+                        type="padding"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="pl-1"
+                        type="padding"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="pl-2"
+                        type="padding"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="pl-3"
+                        type="padding"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="pl-4"
+                        type="padding"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="pl-5"
+                        type="padding"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="pl-6"
+                        type="padding"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="pl-7"
+                        type="padding"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="pl-8"
+                        type="padding"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="pl-9"
+                        type="padding"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="pl-10"
+                        type="padding"
+                        class="w-3 h-2"></cells-design-token>
                 </div>
             </div>
             <h3 class="m-0 heading-3">Margin</h3>
             <div class="column full mb-2">
                 <div class="row full mb-2">
-                    <cells-design-token rule="m-0" type="margin" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="m-1" name="--margin" type="margin" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="m-2" type="margin" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="m-3" type="margin" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="m-4" type="margin" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="m-5" type="margin" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="m-6" type="margin" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="m-7" type="margin" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="m-8" type="margin" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="m-9" type="margin" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="m-10" type="margin" class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="m-0"
+                        type="margin"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="m-1"
+                        name="--margin"
+                        type="margin"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="m-2"
+                        type="margin"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="m-3"
+                        type="margin"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="m-4"
+                        type="margin"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="m-5"
+                        type="margin"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="m-6"
+                        type="margin"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="m-7"
+                        type="margin"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="m-8"
+                        type="margin"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="m-9"
+                        type="margin"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="m-10"
+                        type="margin"
+                        class="w-3 h-2"></cells-design-token>
                 </div>
                 <h4 class="m-0 heading-6">Horizontal</h4>
                 <div class="row full mb-2">
-                    <cells-design-token rule="mx-0" type="margin" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="mx-1" type="margin" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="mx-2" type="margin" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="mx-3" type="margin" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="mx-4" type="margin" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="mx-5" type="margin" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="mx-6" type="margin" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="mx-7" type="margin" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="mx-8" type="margin" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="mx-9" type="margin" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="mx-10" type="margin" class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="mx-0"
+                        type="margin"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="mx-1"
+                        type="margin"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="mx-2"
+                        type="margin"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="mx-3"
+                        type="margin"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="mx-4"
+                        type="margin"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="mx-5"
+                        type="margin"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="mx-6"
+                        type="margin"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="mx-7"
+                        type="margin"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="mx-8"
+                        type="margin"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="mx-9"
+                        type="margin"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="mx-10"
+                        type="margin"
+                        class="w-3 h-2"></cells-design-token>
                 </div>
                 <h4 class="m-0 heading-6">Vertical</h4>
                 <div class="row full mb-2">
-                    <cells-design-token rule="my-0" type="margin" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="my-1" type="margin" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="my-2" type="margin" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="my-3" type="margin" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="my-4" type="margin" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="my-5" type="margin" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="my-6" type="margin" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="my-7" type="margin" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="my-8" type="margin" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="my-9" type="margin" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="my-10" type="margin" class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="my-0"
+                        type="margin"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="my-1"
+                        type="margin"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="my-2"
+                        type="margin"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="my-3"
+                        type="margin"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="my-4"
+                        type="margin"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="my-5"
+                        type="margin"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="my-6"
+                        type="margin"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="my-7"
+                        type="margin"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="my-8"
+                        type="margin"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="my-9"
+                        type="margin"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="my-10"
+                        type="margin"
+                        class="w-3 h-2"></cells-design-token>
                 </div>
                 <h4 class="m-0 heading-6">Top</h4>
                 <div class="row full mb-2">
-                    <cells-design-token rule="mt-0" type="margin" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="mt-1" type="margin" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="mt-2" type="margin" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="mt-3" type="margin" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="mt-4" type="margin" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="mt-5" type="margin" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="mt-6" type="margin" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="mt-7" type="margin" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="mt-8" type="margin" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="mt-9" type="margin" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="mt-10" type="margin" class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="mt-0"
+                        type="margin"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="mt-1"
+                        type="margin"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="mt-2"
+                        type="margin"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="mt-3"
+                        type="margin"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="mt-4"
+                        type="margin"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="mt-5"
+                        type="margin"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="mt-6"
+                        type="margin"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="mt-7"
+                        type="margin"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="mt-8"
+                        type="margin"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="mt-9"
+                        type="margin"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="mt-10"
+                        type="margin"
+                        class="w-3 h-2"></cells-design-token>
                 </div>
                 <h4 class="m-0 heading-6">Right</h4>
                 <div class="row full mb-2">
-                    <cells-design-token rule="mr-0" type="margin" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="mr-1" type="margin" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="mr-2" type="margin" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="mr-3" type="margin" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="mr-4" type="margin" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="mr-5" type="margin" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="mr-6" type="margin" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="mr-7" type="margin" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="mr-8" type="margin" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="mr-9" type="margin" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="mr-10" type="margin" class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="mr-0"
+                        type="margin"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="mr-1"
+                        type="margin"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="mr-2"
+                        type="margin"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="mr-3"
+                        type="margin"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="mr-4"
+                        type="margin"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="mr-5"
+                        type="margin"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="mr-6"
+                        type="margin"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="mr-7"
+                        type="margin"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="mr-8"
+                        type="margin"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="mr-9"
+                        type="margin"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="mr-10"
+                        type="margin"
+                        class="w-3 h-2"></cells-design-token>
                 </div>
                 <h4 class="m-0 heading-6">Bottom</h4>
                 <div class="row full mb-2">
-                    <cells-design-token rule="mb-0" type="margin" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="mb-1" type="margin" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="mb-2" type="margin" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="mb-3" type="margin" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="mb-4" type="margin" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="mb-5" type="margin" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="mb-6" type="margin" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="mb-7" type="margin" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="mb-8" type="margin" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="mb-9" type="margin" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="mb-10" type="margin" class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="mb-0"
+                        type="margin"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="mb-1"
+                        type="margin"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="mb-2"
+                        type="margin"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="mb-3"
+                        type="margin"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="mb-4"
+                        type="margin"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="mb-5"
+                        type="margin"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="mb-6"
+                        type="margin"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="mb-7"
+                        type="margin"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="mb-8"
+                        type="margin"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="mb-9"
+                        type="margin"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="mb-10"
+                        type="margin"
+                        class="w-3 h-2"></cells-design-token>
                 </div>
                 <h4 class="m-0 heading-6">Left</h4>
                 <div class="row full">
-                    <cells-design-token rule="ml-0" type="margin" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="ml-1" type="margin" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="ml-2" type="margin" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="ml-3" type="margin" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="ml-4" type="margin" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="ml-5" type="margin" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="ml-6" type="margin" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="ml-7" type="margin" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="ml-8" type="margin" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="ml-9" type="margin" class="w-3 h-2"></cells-design-token>
-                    <cells-design-token rule="ml-10" type="margin" class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="ml-0"
+                        type="margin"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="ml-1"
+                        type="margin"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="ml-2"
+                        type="margin"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="ml-3"
+                        type="margin"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="ml-4"
+                        type="margin"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="ml-5"
+                        type="margin"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="ml-6"
+                        type="margin"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="ml-7"
+                        type="margin"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="ml-8"
+                        type="margin"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="ml-9"
+                        type="margin"
+                        class="w-3 h-2"></cells-design-token>
+                    <cells-design-token
+                        rule="ml-10"
+                        type="margin"
+                        class="w-3 h-2"></cells-design-token>
                 </div>
             </div>
             <h3 class="m-0 heading-3">Borders</h3>
             <div class="row full mb-2">
-                <cells-design-token rule="radius-0" type="radius" class="w-2 h-2"></cells-design-token>
-                <cells-design-token name="--radius" rule="radius-1" type="radius" class="w-2 h-2"></cells-design-token>
-                <cells-design-token rule="radius-2" type="radius" class="w-2 h-2"></cells-design-token>
-                <cells-design-token rule="radius-3" type="radius" class="w-2 h-2"></cells-design-token>
-                <cells-design-token rule="radius-4" type="radius" class="w-2 h-2"></cells-design-token>
-                <cells-design-token rule="radius-5" type="radius" class="w-2 h-2"></cells-design-token>
-                <cells-design-token rule="radius-6" type="radius" class="w-2 h-2"></cells-design-token>
-                <cells-design-token rule="radius-7" type="radius" class="w-2 h-2"></cells-design-token>
-                <cells-design-token rule="radius-8" type="radius" class="w-2 h-2"></cells-design-token>
-                <cells-design-token rule="radius-9" type="radius" class="w-2 h-2"></cells-design-token>
-                <cells-design-token rule="radius-10" type="radius" class="w-2 h-2"></cells-design-token>
-                <cells-design-token rule="radius-full" type="radius" class="w-2 h-2"></cells-design-token>
+                <cells-design-token
+                    rule="radius-0"
+                    type="radius"
+                    class="w-2 h-2"></cells-design-token>
+                <cells-design-token
+                    name="--radius"
+                    rule="radius-1"
+                    type="radius"
+                    class="w-2 h-2"></cells-design-token>
+                <cells-design-token
+                    rule="radius-2"
+                    type="radius"
+                    class="w-2 h-2"></cells-design-token>
+                <cells-design-token
+                    rule="radius-3"
+                    type="radius"
+                    class="w-2 h-2"></cells-design-token>
+                <cells-design-token
+                    rule="radius-4"
+                    type="radius"
+                    class="w-2 h-2"></cells-design-token>
+                <cells-design-token
+                    rule="radius-5"
+                    type="radius"
+                    class="w-2 h-2"></cells-design-token>
+                <cells-design-token
+                    rule="radius-6"
+                    type="radius"
+                    class="w-2 h-2"></cells-design-token>
+                <cells-design-token
+                    rule="radius-7"
+                    type="radius"
+                    class="w-2 h-2"></cells-design-token>
+                <cells-design-token
+                    rule="radius-8"
+                    type="radius"
+                    class="w-2 h-2"></cells-design-token>
+                <cells-design-token
+                    rule="radius-9"
+                    type="radius"
+                    class="w-2 h-2"></cells-design-token>
+                <cells-design-token
+                    rule="radius-10"
+                    type="radius"
+                    class="w-2 h-2"></cells-design-token>
+                <cells-design-token
+                    rule="radius-full"
+                    type="radius"
+                    class="w-2 h-2"></cells-design-token>
             </div>
             <h3 class="m-0 heading-3">Shadows</h3>
             <div class="row full mb-2">
-                <cells-design-token name="--shadow-color" type="background" class="w-3 h-2"></cells-design-token>
-                <cells-design-token name="--shadow-inner-1" rule="deep-1" type="shadow" class="w-3 h-2"></cells-design-token>
-                <cells-design-token name="--shadow-inner-2" rule="deep-2" type="shadow" class="w-3 h-2"></cells-design-token>
-                <cells-design-token name="--shadow-inner-3" rule="deep-3" type="shadow" class="w-3 h-2"></cells-design-token>
-                <cells-design-token name="--shadow-inner-4" rule="deep-4" type="shadow" class="w-3 h-2"></cells-design-token>
-                <cells-design-token name="--shadow-0" rule="elevation-0" type="shadow" class="w-3 h-2"></cells-design-token>
-                <cells-design-token name="--shadow-1" rule="elevation-1" type="shadow" class="w-3 h-2"></cells-design-token>
-                <cells-design-token name="--shadow-2" rule="elevation-2" type="shadow" class="w-3 h-2"></cells-design-token>
-                <cells-design-token name="--shadow-3" rule="elevation-3" type="shadow" class="w-3 h-2"></cells-design-token>
-                <cells-design-token name="--shadow-4" rule="elevation-4" type="shadow" class="w-3 h-2"></cells-design-token>
-                <cells-design-token name="--shadow-5" rule="elevation-5" type="shadow" class="w-3 h-2"></cells-design-token>
-                <cells-design-token name="--shadow-6" rule="elevation-6" type="shadow" class="w-3 h-2"></cells-design-token>
-                <cells-design-token name="--shadow-7" rule="elevation-7" type="shadow" class="w-3 h-2"></cells-design-token>
-                <cells-design-token name="--shadow-8" rule="elevation-8" type="shadow" class="w-3 h-2"></cells-design-token>
-                <cells-design-token name="--shadow-9" rule="elevation-9" type="shadow" class="w-3 h-2"></cells-design-token>
-                <cells-design-token name="--shadow-10" rule="elevation-10" type="shadow" class="w-3 h-2"></cells-design-token>
-                <cells-design-token name="--shadow-12" rule="elevation-12" type="shadow" class="w-3 h-2"></cells-design-token>
-                <cells-design-token name="--shadow-16" rule="elevation-16" type="shadow" class="w-3 h-2"></cells-design-token>
-                <cells-design-token name="--shadow-24" rule="elevation-24" type="shadow" class="w-3 h-2"></cells-design-token>
+                <cells-design-token
+                    name="--shadow-color"
+                    type="background"
+                    class="w-3 h-2"></cells-design-token>
+                <cells-design-token
+                    name="--shadow-inner-1"
+                    rule="deep-1"
+                    type="shadow"
+                    class="w-3 h-2"></cells-design-token>
+                <cells-design-token
+                    name="--shadow-inner-2"
+                    rule="deep-2"
+                    type="shadow"
+                    class="w-3 h-2"></cells-design-token>
+                <cells-design-token
+                    name="--shadow-inner-3"
+                    rule="deep-3"
+                    type="shadow"
+                    class="w-3 h-2"></cells-design-token>
+                <cells-design-token
+                    name="--shadow-inner-4"
+                    rule="deep-4"
+                    type="shadow"
+                    class="w-3 h-2"></cells-design-token>
+                <cells-design-token
+                    name="--shadow-0"
+                    rule="elevation-0"
+                    type="shadow"
+                    class="w-3 h-2"></cells-design-token>
+                <cells-design-token
+                    name="--shadow-1"
+                    rule="elevation-1"
+                    type="shadow"
+                    class="w-3 h-2"></cells-design-token>
+                <cells-design-token
+                    name="--shadow-2"
+                    rule="elevation-2"
+                    type="shadow"
+                    class="w-3 h-2"></cells-design-token>
+                <cells-design-token
+                    name="--shadow-3"
+                    rule="elevation-3"
+                    type="shadow"
+                    class="w-3 h-2"></cells-design-token>
+                <cells-design-token
+                    name="--shadow-4"
+                    rule="elevation-4"
+                    type="shadow"
+                    class="w-3 h-2"></cells-design-token>
+                <cells-design-token
+                    name="--shadow-5"
+                    rule="elevation-5"
+                    type="shadow"
+                    class="w-3 h-2"></cells-design-token>
+                <cells-design-token
+                    name="--shadow-6"
+                    rule="elevation-6"
+                    type="shadow"
+                    class="w-3 h-2"></cells-design-token>
+                <cells-design-token
+                    name="--shadow-7"
+                    rule="elevation-7"
+                    type="shadow"
+                    class="w-3 h-2"></cells-design-token>
+                <cells-design-token
+                    name="--shadow-8"
+                    rule="elevation-8"
+                    type="shadow"
+                    class="w-3 h-2"></cells-design-token>
+                <cells-design-token
+                    name="--shadow-9"
+                    rule="elevation-9"
+                    type="shadow"
+                    class="w-3 h-2"></cells-design-token>
+                <cells-design-token
+                    name="--shadow-10"
+                    rule="elevation-10"
+                    type="shadow"
+                    class="w-3 h-2"></cells-design-token>
+                <cells-design-token
+                    name="--shadow-12"
+                    rule="elevation-12"
+                    type="shadow"
+                    class="w-3 h-2"></cells-design-token>
+                <cells-design-token
+                    name="--shadow-16"
+                    rule="elevation-16"
+                    type="shadow"
+                    class="w-3 h-2"></cells-design-token>
+                <cells-design-token
+                    name="--shadow-24"
+                    rule="elevation-24"
+                    type="shadow"
+                    class="w-3 h-2"></cells-design-token>
             </div>
             <h3 class="m-0 heading-3">Clamping</h3>
             <div class="row full mb-2">
-                <cells-design-token rule="clamp-1" type="text" class="w-3 h-2"></cells-design-token>
-                <cells-design-token rule="clamp-2" type="text" class="w-3 h-2"></cells-design-token>
-                <cells-design-token rule="clamp-3" type="text" class="w-3 h-2"></cells-design-token>
-                <cells-design-token rule="clamp-4" type="text" class="w-3 h-2"></cells-design-token>
-                <cells-design-token rule="clamp-5" type="text" class="w-3 h-2"></cells-design-token>
+                <cells-design-token
+                    rule="clamp-1"
+                    type="text"
+                    class="w-3 h-2"></cells-design-token>
+                <cells-design-token
+                    rule="clamp-2"
+                    type="text"
+                    class="w-3 h-2"></cells-design-token>
+                <cells-design-token
+                    rule="clamp-3"
+                    type="text"
+                    class="w-3 h-2"></cells-design-token>
+                <cells-design-token
+                    rule="clamp-4"
+                    type="text"
+                    class="w-3 h-2"></cells-design-token>
+                <cells-design-token
+                    rule="clamp-5"
+                    type="text"
+                    class="w-3 h-2"></cells-design-token>
             </div>
             <h3 class="m-0 heading-3">Utilities</h3>
             <div class="row align-justify full">
-                <cells-design-token name="--gutter" type="spacing" class="w-3 radius-1"></cells-design-token>
-                <cells-design-token name="--gap" type="spacing" class="w-3 radius-1"></cells-design-token>
-                <cells-design-token name="--viewport" class="w-3 radius-1"></cells-design-token>
-                <cells-design-token name="--columns" class="w-3 radius-1"></cells-design-token>
-                <cells-design-token name="--column" type="spacing" class="w-3 radius-1"></cells-design-token>
-                <cells-design-token name="--scrollbar-width" type="spacing" class="w-3 radius-1"></cells-design-token>
-                <cells-design-token name="--scrollbar-radius" type="radius" class="w-3 radius-1"></cells-design-token>
-                <cells-design-token name="--scrollbar-thumb-color" type="background" class="w-3 radius-1"></cells-design-token>
-                <cells-design-token name="--outline-color" type="background" class="w-3 radius-1"></cells-design-token>
-                <cells-design-token name="--outline-width" type="spacing" class="w-3 radius-1"></cells-design-token>
-                <cells-design-token name="--outline" class="w-3 radius-1"></cells-design-token>
-                <cells-design-token name="--outline-offset" class="w-3 radius-1"></cells-design-token>
-                <cells-design-token name="--easing" class="w-3 radius-1"></cells-design-token>
-                <cells-design-token name="--easing-time" class="w-3 radius-1"></cells-design-token>
+                <cells-design-token
+                    name="--gutter"
+                    type="spacing"
+                    class="w-3 radius-1"></cells-design-token>
+                <cells-design-token
+                    name="--gap"
+                    type="spacing"
+                    class="w-3 radius-1"></cells-design-token>
+                <cells-design-token
+                    name="--viewport"
+                    class="w-3 radius-1"></cells-design-token>
+                <cells-design-token
+                    name="--columns"
+                    class="w-3 radius-1"></cells-design-token>
+                <cells-design-token
+                    name="--column"
+                    type="spacing"
+                    class="w-3 radius-1"></cells-design-token>
+                <cells-design-token
+                    name="--scrollbar-width"
+                    type="spacing"
+                    class="w-3 radius-1"></cells-design-token>
+                <cells-design-token
+                    name="--scrollbar-radius"
+                    type="radius"
+                    class="w-3 radius-1"></cells-design-token>
+                <cells-design-token
+                    name="--scrollbar-thumb-color"
+                    type="background"
+                    class="w-3 radius-1"></cells-design-token>
+                <cells-design-token
+                    name="--outline-color"
+                    type="background"
+                    class="w-3 radius-1"></cells-design-token>
+                <cells-design-token
+                    name="--outline-width"
+                    type="spacing"
+                    class="w-3 radius-1"></cells-design-token>
+                <cells-design-token
+                    name="--outline"
+                    class="w-3 radius-1"></cells-design-token>
+                <cells-design-token
+                    name="--outline-offset"
+                    class="w-3 radius-1"></cells-design-token>
+                <cells-design-token
+                    name="--easing"
+                    class="w-3 radius-1"></cells-design-token>
+                <cells-design-token
+                    name="--easing-time"
+                    class="w-3 radius-1"></cells-design-token>
             </div>
         </div>
     </body>
