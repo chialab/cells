@@ -5,6 +5,7 @@
     "@chialab/cells": "1.5.4"
   },
   "changesets": [
-    "nice-lions-tickle"
+    "nice-lions-tickle",
+    "young-cycles-type"
   ]
 }
