@@ -1,5 +1,35 @@
 # [1.4.0](https://github.com/chialab/cells/compare/v1.3.0...v1.4.0) (2022-04-19)
 
+## 1.6.0-next.4
+
+### Patch Changes
+
+- b5fa800: Fix specificity regression.
+
+## 1.6.0-next.3
+
+### Patch Changes
+
+- 2828be0: Set column span to end property.
+
+## 1.6.0-next.2
+
+### Patch Changes
+
+- 4a83d50: Collapse grid classes into one.
+
+## 1.6.0-next.1
+
+### Patch Changes
+
+- Fix `h-N` class inside grid.
+
+## 1.6.0-next.0
+
+### Minor Changes
+
+- 3e6bc01: Change `w-N` and `h-N` classes behavior inside grids.
+
 ## 1.5.4
 
 ### Patch Changes

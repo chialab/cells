@@ -49,23 +49,11 @@ and import it in your stylesheet:
 @import '@chialab/cells';
 ```
 
-or using the unpkg CDN:
-
-```html
-<link
-    rel="stylesheet"
-    href="https://unpkg.com/@chialab/cells/lib/index.css" />
-```
-
-```css
-@import 'https://unpkg.com/@chialab/cells/lib/index.css';
-```
-
 ---
 
 ## Correctly set `--window-width` variable.
 
-Viewport units (`vw`, `vh`) do not take into account scrollbars width. In Cells, we use the `overflow: overlay;` property in order to avoid horizontal scrolling when using `100vw` in mobile viewports, but that property is not a safe cross-browser solution and will be removed in the next major iteration of Cells. From 1.5.0, to solve this problem we have introduced the `--window-width` variable that can be set using the following JavaScript snippet:
+Viewport units (`vw`, `vh`) do not take into account scrollbars width. To solve this problem we have introduced the `--window-width` variable that can be set using the following JavaScript snippet:
 
 ```js
 function updateViewportSize() {
