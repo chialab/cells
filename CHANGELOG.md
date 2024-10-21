@@ -1,5 +1,11 @@
 # [1.4.0](https://github.com/chialab/cells/compare/v1.3.0...v1.4.0) (2022-04-19)
 
+## 1.6.0-next.2
+
+### Patch Changes
+
+- 4a83d50: Collapse grid classes into one.
+
 ## 1.6.0-next.1
 
 ### Patch Changes
