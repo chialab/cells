@@ -33,7 +33,7 @@
 .grid {
     display: grid;
     gap: var(--gap);
-    grid-template-columns: repeat(auto-fill, var(--column));
+    grid-template-columns: repeat(var(--w-span, var(--columns)), 1fr);
     grid-auto-rows: min-content;
 }
 
@@ -403,25 +403,4 @@
 .scroll-x {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
-}
-
-.grid.viewport {
-    grid-template-columns: repeat(var(--columns), 1fr);
-}
-
-.grid.w-1,
-.grid.w-2,
-.grid.w-3,
-.grid.w-4,
-.grid.w-5,
-.grid.w-6,
-.grid.w-7,
-.grid.w-8,
-.grid.w-9,
-.grid.w-10,
-.grid.w-11,
-.grid.w-12,
-.grid.w-13,
-.grid.w-14 {
-    grid-template-columns: repeat(var(--w-span), 1fr);
 }
