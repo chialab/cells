@@ -1,6 +1,6 @@
 {
   "name": "@chialab/cells",
-  "version": "1.5.4",
+  "version": "1.6.0-next.0",
   "type": "module",
   "description": "A strongly opinionated modular utility-first CSS library.",
   "author": "Chialab <dev@chialab.io> (https://www.chialab.it)",

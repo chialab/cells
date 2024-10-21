@@ -4,5 +4,7 @@
   "initialVersions": {
     "@chialab/cells": "1.5.4"
   },
-  "changesets": []
+  "changesets": [
+    "nice-lions-tickle"
+  ]
 }
