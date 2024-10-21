@@ -1,5 +1,11 @@
 # [1.4.0](https://github.com/chialab/cells/compare/v1.3.0...v1.4.0) (2022-04-19)
 
+## 1.6.0-next.3
+
+### Patch Changes
+
+- 2828be0: Set column span to end property.
+
 ## 1.6.0-next.2
 
 ### Patch Changes
