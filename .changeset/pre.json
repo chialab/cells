@@ -1,0 +1,14 @@
+{
+  "mode": "pre",
+  "tag": "next",
+  "initialVersions": {
+    "@chialab/cells": "1.5.4"
+  },
+  "changesets": [
+    "healthy-comics-do",
+    "nice-lions-tickle",
+    "wicked-nails-try",
+    "witty-points-march",
+    "young-cycles-type"
+  ]
+}
