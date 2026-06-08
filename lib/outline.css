@@ -9,7 +9,8 @@
      * @tokens Outline
      */
     --outline-width: 2px;
-    --outline: auto var(--outline-width) var(--outline-color);
+    --outline-style: auto;
+    --outline: var(--outline-style) var(--outline-width) var(--outline-color);
     --outline-offset: var(--base, 0.25rem);
 }
 
@@ -18,6 +19,8 @@
 }
 
 *:focus-visible {
-    outline: var(--outline);
+    outline-width: var(--outline-width);
+    outline-style: var(--outline-style);
+    outline-color: var(--outline-color);
     outline-offset: var(--outline-offset);
 }
