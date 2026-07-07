@@ -1,5 +1,11 @@
 # [1.4.0](https://github.com/chialab/cells/compare/v1.3.0...v1.4.0) (2022-04-19)
 
+## 1.7.1
+
+### Patch Changes
+
+- e15fd50: Add typings.
+
 ## 1.7.0
 
 ### Minor Changes
