@@ -6,8 +6,14 @@
   "author": "Chialab <dev@chialab.io> (https://www.chialab.it)",
   "style": "lib/index.css",
   "exports": {
-    ".": "./lib/index.css",
-    "./lib/*": "./lib/*",
+    ".": {
+      "types": "./lib/types.d.ts",
+      "default": "./lib/index.css"
+    },
+    "./lib/*": {
+      "types": "./lib/types.d.ts",
+      "default": "./lib/*"
+    },
     "./docs/*": "./docs/*"
   },
   "license": "MIT",
